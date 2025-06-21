@@ -13,7 +13,7 @@
   "tilesetId": "",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": null,
   "playerSpriteSheetId": "da5b6dea-48c2-4b18-a436-6974364bf3cf",
   "script": [
     {
@@ -555,6 +555,18 @@
         ]
       },
       "id": "caa2078a-816a-444f-8463-d4c4ec7fc4b2"
+    },
+    {
+      "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+      "args": {
+        "startpoint": "White",
+        "starting_r": 0,
+        "starting_g": 0,
+        "starting_b": 0,
+        "dmg_startpoint": "normal",
+        "speed": "2"
+      },
+      "id": "b88ed1ed-f455-4545-9745-0109d8456a5e"
     }
   ],
   "playerHit1Script": [],

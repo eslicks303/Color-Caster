@@ -671,8 +671,8 @@
                           "starting_b": 0,
                           "dmg_endpoint": "normal",
                           "speed": "2",
-                          "__comment": true,
-                          "__collapse": true
+                          "__comment": false,
+                          "__collapse": false
                         },
                         "id": "a129df34-a429-4b1d-904b-a35d3069bee1"
                       },

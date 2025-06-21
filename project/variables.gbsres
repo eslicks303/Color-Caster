@@ -37,11 +37,6 @@
       "symbol": "var_enable_secret_beach"
     },
     {
-      "id": "7",
-      "name": "var_Spades_A_Delt",
-      "symbol": "var_var_spades_a_delt"
-    },
-    {
       "id": "8",
       "name": "Card_Deal_Value",
       "symbol": "var_card_deal_value"
@@ -55,66 +50,6 @@
       "id": "10",
       "name": "Card_Deal_Again",
       "symbol": "var_card_deal_again"
-    },
-    {
-      "id": "11",
-      "name": "var_Spades_2_Delt",
-      "symbol": "var_var_spades_2_delt"
-    },
-    {
-      "id": "12",
-      "name": "var_Spades_3_Delt",
-      "symbol": "var_var_spades_3_delt"
-    },
-    {
-      "id": "13",
-      "name": "var_Spades_4_Delt",
-      "symbol": "var_var_spades_4_delt"
-    },
-    {
-      "id": "14",
-      "name": "var_Spades_5_Delt",
-      "symbol": "var_var_spades_5_delt"
-    },
-    {
-      "id": "15",
-      "name": "var_Spades_6_Delt",
-      "symbol": "var_var_spades_6_delt"
-    },
-    {
-      "id": "16",
-      "name": "var_Spades_7_Delt",
-      "symbol": "var_var_spades_7_delt"
-    },
-    {
-      "id": "17",
-      "name": "var_Spades_8_Delt",
-      "symbol": "var_var_spades_8_delt"
-    },
-    {
-      "id": "18",
-      "name": "var_Spades_9_Delt",
-      "symbol": "var_var_spades_9_delt"
-    },
-    {
-      "id": "19",
-      "name": "var_Spades_10_Delt",
-      "symbol": "var_var_spades_10_delt"
-    },
-    {
-      "id": "20",
-      "name": "var_Spades_J__Delt",
-      "symbol": "var_var_spades_j_delt"
-    },
-    {
-      "id": "21",
-      "name": "var_Spades_Q_Delt",
-      "symbol": "var_var_spades_q_delt"
-    },
-    {
-      "id": "22",
-      "name": "var_Spades_K_Delt",
-      "symbol": "var_var_spades_k_delt"
     },
     {
       "id": "23",
@@ -135,201 +70,6 @@
       "id": "26",
       "name": "Card_Player_Number_Of_Aces",
       "symbol": "var_card_player_number_of_a"
-    },
-    {
-      "id": "27",
-      "name": "var_Hearts_A_Delt",
-      "symbol": "var_var_hearts_a_delt"
-    },
-    {
-      "id": "28",
-      "name": "var_Hearts_2_Delt",
-      "symbol": "var_var_hearts_2_delt"
-    },
-    {
-      "id": "29",
-      "name": "var_Hearts_3_Delt",
-      "symbol": "var_var_hearts_3_delt"
-    },
-    {
-      "id": "30",
-      "name": "var_Hearts_4_Delt",
-      "symbol": "var_var_hearts_4_delt"
-    },
-    {
-      "id": "31",
-      "name": "var_Hearts_5_Delt",
-      "symbol": "var_var_hearts_5_delt"
-    },
-    {
-      "id": "32",
-      "name": "var_Hearts_6_Delt",
-      "symbol": "var_var_hearts_6_delt"
-    },
-    {
-      "id": "33",
-      "name": "var_Hearts_7_Delt",
-      "symbol": "var_var_hearts_7_delt"
-    },
-    {
-      "id": "34",
-      "name": "var_Hearts_8_Delt",
-      "symbol": "var_var_hearts_8_delt"
-    },
-    {
-      "id": "35",
-      "name": "var_Hearts_9_Delt",
-      "symbol": "var_var_hearts_9_delt"
-    },
-    {
-      "id": "36",
-      "name": "var_Hearts_10_Delt",
-      "symbol": "var_var_hearts_10_delt"
-    },
-    {
-      "id": "37",
-      "name": "var_Hearts_J_Delt",
-      "symbol": "var_var_hearts_j_delt"
-    },
-    {
-      "id": "38",
-      "name": "var_Hearts_Q_Delt",
-      "symbol": "var_var_hearts_q_delt"
-    },
-    {
-      "id": "39",
-      "name": "var_Hearts_K_Delt",
-      "symbol": "var_var_hearts_k_delt"
-    },
-    {
-      "id": "40",
-      "name": "var_Clubs_A_Delt",
-      "symbol": "var_var_clubs_a_delt"
-    },
-    {
-      "id": "41",
-      "name": "var_Clubs_2_Delt",
-      "symbol": "var_var_clubs_2_delt"
-    },
-    {
-      "id": "42",
-      "name": "var_Clubs_3_Delt",
-      "symbol": "var_var_clubs_3_delt"
-    },
-    {
-      "id": "43",
-      "name": "var_Clubs_4_Delt",
-      "symbol": "var_var_clubs_4_delt"
-    },
-    {
-      "id": "44",
-      "name": "var_Clubs_5_Delt",
-      "symbol": "var_var_clubs_5_delt"
-    },
-    {
-      "id": "45",
-      "name": "var_Clubs_6_Delt",
-      "symbol": "var_var_clubs_6_delt"
-    },
-    {
-      "id": "46",
-      "name": "var_Clubs_7_Delt",
-      "symbol": "var_var_clubs_7_delt"
-    },
-    {
-      "id": "47",
-      "name": "var_Clubs_8_Delt",
-      "symbol": "var_var_clubs_8_delt"
-    },
-    {
-      "id": "48",
-      "name": "var_Clubs_9_Delt",
-      "symbol": "var_var_clubs_9_delt"
-    },
-    {
-      "id": "49",
-      "name": "var_Clubs_10_Delt",
-      "symbol": "var_var_clubs_10_delt"
-    },
-    {
-      "id": "50",
-      "name": "var_Clubs_J_Delt",
-      "symbol": "var_var_clubs_j_delt"
-    },
-    {
-      "id": "51",
-      "name": "var_Clubs_Q_Delt",
-      "symbol": "var_var_clubs_q_delt"
-    },
-    {
-      "id": "52",
-      "name": "var_Clubs_K_Delt",
-      "symbol": "var_var_clubs_k_delt"
-    },
-    {
-      "id": "53",
-      "name": "var_Diamonds_A_Delt",
-      "symbol": "var_var_diamonds_a_delt"
-    },
-    {
-      "id": "54",
-      "name": "var_Diamonds_2_Delt",
-      "symbol": "var_var_diamonds_2_delt"
-    },
-    {
-      "id": "55",
-      "name": "var_Diamonds_3_Delt",
-      "symbol": "var_var_diamonds_3_delt"
-    },
-    {
-      "id": "56",
-      "name": "var_Diamonds_4_Delt",
-      "symbol": "var_var_diamonds_4_delt"
-    },
-    {
-      "id": "57",
-      "name": "var_Diamonds_5_Delt",
-      "symbol": "var_var_diamonds_5_delt"
-    },
-    {
-      "id": "58",
-      "name": "var_Diamonds_6_Delt",
-      "symbol": "var_var_diamonds_6_delt"
-    },
-    {
-      "id": "59",
-      "name": "var_Diamonds_7_Delt",
-      "symbol": "var_var_diamonds_7_delt"
-    },
-    {
-      "id": "60",
-      "name": "var_Diamonds_8_Delt",
-      "symbol": "var_var_diamonds_8_delt"
-    },
-    {
-      "id": "61",
-      "name": "var_Diamonds_9_Delt",
-      "symbol": "var_var_diamonds_9_delt"
-    },
-    {
-      "id": "62",
-      "name": "var_Diamonds_10_Delt",
-      "symbol": "var_var_diamonds_10_delt"
-    },
-    {
-      "id": "63",
-      "name": "var_Diamonds_J_Delt",
-      "symbol": "var_var_diamonds_j_delt"
-    },
-    {
-      "id": "64",
-      "name": "var_Diamonds_Q_Delt",
-      "symbol": "var_var_diamonds_q_delt"
-    },
-    {
-      "id": "65",
-      "name": "var_Diamonds_K_Delt",
-      "symbol": "var_var_diamonds_k_delt"
     },
     {
       "id": "66",
@@ -517,11 +257,6 @@
       "symbol": "var_item_equipped"
     },
     {
-      "id": "103",
-      "name": "Close-Select-Menu",
-      "symbol": "var_close_select_menu"
-    },
-    {
       "id": "104",
       "name": "Item-Has-Wand",
       "symbol": "var_item_has_wand"
@@ -542,26 +277,6 @@
       "symbol": "var_item_has_watering_can"
     },
     {
-      "id": "108",
-      "name": "Mob_Tracking_X",
-      "symbol": "var_mob_tracking_x"
-    },
-    {
-      "id": "109",
-      "name": "Mob_Tracking_Y",
-      "symbol": "var_mob_tracking_y"
-    },
-    {
-      "id": "110",
-      "name": "Mob-1-Health",
-      "symbol": "var_mob_1_health"
-    },
-    {
-      "id": "111",
-      "name": "Mob-1-Hit",
-      "symbol": "var_mob_1_hit"
-    },
-    {
       "id": "112",
       "name": "Player-HP",
       "symbol": "var_player_hp"
@@ -570,11 +285,6 @@
       "id": "113",
       "name": "Card_Can_Play",
       "symbol": "var_card_can_play"
-    },
-    {
-      "id": "114",
-      "name": "Enable River",
-      "symbol": "var_enable_river"
     },
     {
       "id": "115",
@@ -600,6 +310,86 @@
       "id": "511",
       "name": "Variable 511",
       "symbol": "var_variable_511"
+    },
+    {
+      "id": "111",
+      "name": "Cards_Clubs_Flag",
+      "symbol": "var_cards_clubs_flag",
+      "flags": {
+        "flag1": "Ace",
+        "flag2": "Two",
+        "flag3": "Three",
+        "flag4": "Four",
+        "flag5": "Five",
+        "flag6": "Six",
+        "flag7": "Seven",
+        "flag8": "Eight",
+        "flag9": "Nine",
+        "flag10": "Ten",
+        "flag11": "Jack",
+        "flag12": "Queen",
+        "flag13": "King"
+      }
+    },
+    {
+      "id": "119",
+      "name": "Cards_Diamonds_Flag",
+      "symbol": "var_cards_diamonds_flag",
+      "flags": {
+        "flag1": "Ace",
+        "flag2": "Two",
+        "flag3": "Three",
+        "flag4": "Four",
+        "flag5": "Five",
+        "flag6": "Six",
+        "flag7": "Seven",
+        "flag8": "Eight",
+        "flag9": "Nine",
+        "flag10": "Ten",
+        "flag11": "Jack",
+        "flag12": "Queen",
+        "flag13": "King"
+      }
+    },
+    {
+      "id": "120",
+      "name": "Cards_Hearts_Flag",
+      "symbol": "var_cards_hearts_flag",
+      "flags": {
+        "flag1": "Ace",
+        "flag2": "Two",
+        "flag3": "Three",
+        "flag4": "Four",
+        "flag5": "Five",
+        "flag6": "Six",
+        "flag7": "Seven",
+        "flag8": "Eight",
+        "flag9": "Nine",
+        "flag10": "Ten",
+        "flag11": "Jack",
+        "flag12": "Queen",
+        "flag13": "King"
+      }
+    },
+    {
+      "id": "121",
+      "name": "Cards_Spades_Flag",
+      "symbol": "var_cards_spades_flag",
+      "flags": {
+        "flag1": "Ace",
+        "flag2": "Two",
+        "flag3": "Three",
+        "flag4": "Four",
+        "flag5": "Five",
+        "flag6": "Six",
+        "flag7": "Seven",
+        "flag8": "Eight",
+        "flag9": "Nine",
+        "flag10": "Ten",
+        "flag11": "Jack",
+        "flag12": "Queen",
+        "flag13": "King"
+      }
     }
   ]
 }
