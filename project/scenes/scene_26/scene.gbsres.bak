@@ -37,7 +37,8 @@
         "duration": 0.5,
         "frames": 1,
         "__scriptTabs": "end",
-        "units": "frames"
+        "units": "frames",
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -551,7 +552,8 @@
                 "value": 0
               },
               "swap50_x": 0,
-              "swap50_y": 0
+              "swap50_y": 0,
+              "__collapse": true
             },
             "id": "b01b9107-5e8b-4ad1-a624-a3c8ab8e4453"
           }
@@ -578,6 +580,21 @@
         "__collapse": true
       },
       "id": "429f91fb-598f-4f58-b8f9-0ee4d8028a59"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "restore",
+        "palette1": "restore",
+        "palette2": "restore",
+        "palette3": "restore",
+        "palette4": "restore",
+        "palette5": "restore",
+        "palette6": "restore",
+        "palette7": "restore",
+        "__collapse": true
+      },
+      "id": "b9fdcf2f-641c-49ba-a8ae-08aa25aad83a"
     }
   ],
   "playerHit1Script": [],

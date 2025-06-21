@@ -65,6 +65,31 @@
       "children": {
         "script": [
           {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "tilesetId": "42c81ca3-bd3e-47de-af06-c2e57dcf5f30",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0",
+              "tileSize": "16px"
+            },
+            "id": "9340d14a-02eb-4c4d-a450-6b644610e793"
+          },
+          {
             "command": "FO_EVENT_SWAP_TILES_VAR",
             "args": {
               "tabs": "default",
@@ -574,7 +599,8 @@
                 "value": 0
               },
               "swap50_x": 0,
-              "swap50_y": 0
+              "swap50_y": 0,
+              "__comment": true
             },
             "id": "a4c709ae-992d-4df6-b21a-16af91d4d03c"
           }

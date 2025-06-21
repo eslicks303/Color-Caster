@@ -19,7 +19,7 @@
     "5c88cf04-047e-4b95-90d4-9fa3cfbf0c02"
   ],
   "spritePaletteIds": [],
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": null,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "",
   "script": [
@@ -560,6 +560,19 @@
         ]
       },
       "id": "6f69270f-40e9-4f29-9492-e4e69eccc4bc"
+    },
+    {
+      "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+      "args": {
+        "startpoint": "White",
+        "starting_r": 0,
+        "starting_g": 0,
+        "starting_b": 0,
+        "dmg_startpoint": "normal",
+        "speed": "2",
+        "__collapse": true
+      },
+      "id": "517de0f7-bbaa-440b-a368-2ab496d93b0d"
     }
   ],
   "playerHit1Script": [],

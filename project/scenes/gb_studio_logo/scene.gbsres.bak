@@ -16,8 +16,8 @@
   "collisions": "",
   "autoFadeSpeed": null,
   "symbol": "scene_0",
-  "x": 64,
-  "y": 776,
+  "x": 60,
+  "y": 30,
   "script": [
     {
       "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",

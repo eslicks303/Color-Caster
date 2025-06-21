@@ -20,7 +20,7 @@
     "20ec0f9c-d1ae-4965-9b3a-e8a093f2d0c9"
   ],
   "spritePaletteIds": [],
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": null,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -37,7 +37,7 @@
         "starting_g": 0,
         "starting_b": 0,
         "dmg_startpoint": "normal",
-        "speed": "3"
+        "speed": "2"
       },
       "id": "f965725f-f1e2-40c1-8ed8-6355d7406c4e"
     }

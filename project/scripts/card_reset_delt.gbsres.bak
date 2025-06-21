@@ -11,7 +11,8 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Reset Spades",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "children": {
         "true": [
@@ -153,7 +154,8 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Reset Hearts",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "children": {
         "true": [
@@ -295,7 +297,8 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Reset Clubs",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "children": {
         "true": [
@@ -437,7 +440,8 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Reset Diamonds",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "children": {
         "true": [
@@ -578,7 +582,8 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__label": "Reset Variables"
+        "__label": "Reset Variables",
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -636,6 +641,17 @@
                     "__collapse": true
                   },
                   "id": "261c0a4d-7011-45d5-8645-6bdedfecb22c"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "118",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "846a2cd3-95e8-498d-bc71-d53c612aae52"
                 }
               ]
             },
@@ -727,6 +743,102 @@
         ]
       },
       "id": "f8bc5fe4-d6f5-407f-9734-17659a4806d0"
+    },
+    {
+      "command": "EVENT_CLEAR_FLAGS",
+      "args": {
+        "variable": "111",
+        "flag1": true,
+        "flag2": true,
+        "flag3": true,
+        "flag4": true,
+        "flag5": true,
+        "flag6": true,
+        "flag7": true,
+        "flag8": true,
+        "flag9": true,
+        "flag10": true,
+        "flag11": true,
+        "flag12": true,
+        "flag13": true,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "df0437d2-b7c5-4b85-8cc0-09c046895da2"
+    },
+    {
+      "command": "EVENT_CLEAR_FLAGS",
+      "args": {
+        "variable": "119",
+        "flag1": true,
+        "flag2": true,
+        "flag3": true,
+        "flag4": true,
+        "flag5": true,
+        "flag6": true,
+        "flag7": true,
+        "flag8": true,
+        "flag9": true,
+        "flag10": true,
+        "flag11": true,
+        "flag12": true,
+        "flag13": true,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "cc7a4552-a1a6-4891-aaae-b962bf7d77d2"
+    },
+    {
+      "command": "EVENT_CLEAR_FLAGS",
+      "args": {
+        "variable": "120",
+        "flag1": true,
+        "flag2": true,
+        "flag3": true,
+        "flag4": true,
+        "flag5": true,
+        "flag6": true,
+        "flag7": true,
+        "flag8": true,
+        "flag9": true,
+        "flag10": true,
+        "flag11": true,
+        "flag12": true,
+        "flag13": true,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "5757546f-75d3-4900-ac5f-e8ce55974a8f"
+    },
+    {
+      "command": "EVENT_CLEAR_FLAGS",
+      "args": {
+        "variable": "121",
+        "flag1": true,
+        "flag2": true,
+        "flag3": true,
+        "flag4": true,
+        "flag5": true,
+        "flag6": true,
+        "flag7": true,
+        "flag8": true,
+        "flag9": true,
+        "flag10": true,
+        "flag11": true,
+        "flag12": true,
+        "flag13": true,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "82473ff9-57f6-4a31-a4ea-81105e581311"
     }
   ]
 }

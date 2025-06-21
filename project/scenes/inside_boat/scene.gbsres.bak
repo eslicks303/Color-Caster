@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Inside Boat",
   "symbol": "scene_7",
-  "x": 389,
-  "y": 971.4000000000005,
+  "x": 392,
+  "y": 968,
   "width": 20,
   "height": 18,
   "backgroundId": "33d19e37-7bb1-491c-b865-980b01732190",
@@ -569,6 +569,18 @@
       "command": "EVENT_MUSIC_STOP",
       "args": {},
       "id": "b465b424-d9c5-4d0b-b1f7-f2f691713a5c"
+    },
+    {
+      "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+      "args": {
+        "startpoint": "Black",
+        "starting_r": 0,
+        "starting_g": 0,
+        "starting_b": 0,
+        "dmg_startpoint": "normal",
+        "speed": "3"
+      },
+      "id": "4e4549dd-e1e7-4bdf-b9da-45700653e7b7"
     }
   ],
   "playerHit1Script": [],

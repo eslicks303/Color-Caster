@@ -569,6 +569,21 @@
         "__collapse": true
       },
       "id": "516dd40e-3b6b-4e3c-b718-f6329a9a7628"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "restore",
+        "palette1": "restore",
+        "palette2": "restore",
+        "palette3": "restore",
+        "palette4": "restore",
+        "palette5": "restore",
+        "palette6": "restore",
+        "palette7": "restore",
+        "__collapse": true
+      },
+      "id": "4e8bda16-3668-41e9-b75d-2448a3f2b0c6"
     }
   ],
   "playerHit1Script": [],
