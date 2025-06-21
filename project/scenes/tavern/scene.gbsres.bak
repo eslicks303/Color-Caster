@@ -30,12 +30,12 @@
     {
       "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
       "args": {
-        "startpoint": "White",
+        "startpoint": "Black",
         "starting_r": 0,
         "starting_g": 0,
         "starting_b": 0,
         "dmg_startpoint": "normal",
-        "speed": "3"
+        "speed": "2"
       },
       "id": "fb4d78c7-741e-41b8-8b6e-e8607c8456b8"
     }

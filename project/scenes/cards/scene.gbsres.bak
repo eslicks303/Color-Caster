@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "cdc8df40-8b40-4a7a-97d4-0ad3b611b708",
-  "_index": 11,
+  "_index": 14,
   "type": "LOGO",
   "name": "Cards",
   "symbol": "scene_15",
@@ -12,7 +12,7 @@
   "backgroundId": "0fb7b069-2006-49b8-b650-5363824ea34e",
   "tilesetId": "",
   "paletteIds": [
-    "4de3093e-b900-49c6-bd6f-e013327f28ac",
+    "",
     ""
   ],
   "spritePaletteIds": [],

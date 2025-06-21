@@ -616,21 +616,6 @@
         ]
       },
       "id": "22496d34-77db-463a-b75c-d42aac2d0c26"
-    },
-    {
-      "command": "EVENT_PALETTE_SET_BACKGROUND",
-      "args": {
-        "palette0": "restore",
-        "palette1": "restore",
-        "palette2": "restore",
-        "palette3": "restore",
-        "palette4": "restore",
-        "palette5": "restore",
-        "palette6": "restore",
-        "palette7": "restore",
-        "__collapse": true
-      },
-      "id": "68831f9b-5e26-42e4-9bc0-4f4b5e96feb6"
     }
   ],
   "playerHit1Script": [],

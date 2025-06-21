@@ -49,10 +49,35 @@
         "frames": 1,
         "__scriptTabs": "end",
         "units": "frames",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "tilesetId": "42c81ca3-bd3e-47de-af06-c2e57dcf5f30",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0",
+              "tileSize": "16px"
+            },
+            "id": "dc1405a7-a7f6-4778-a766-5105e86c615b"
+          },
           {
             "command": "FO_EVENT_SWAP_TILES_VAR",
             "args": {
@@ -563,7 +588,8 @@
                 "value": 0
               },
               "swap50_x": 0,
-              "swap50_y": 0
+              "swap50_y": 0,
+              "__comment": true
             },
             "id": "2a0c3965-d3b7-4f1c-b638-c55e24181cbd"
           }

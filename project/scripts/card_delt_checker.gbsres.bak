@@ -21,8 +21,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__label": "Check if card has been delt",
-        "__collapse": true
+        "__label": "Check if card has been delt"
       },
       "children": {
         "true": [
@@ -171,7 +170,7 @@
                                     "id": "a1b7c8ad-ff88-48cb-b73a-b7c83985e60a"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": true,
@@ -192,7 +191,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "1637437e-81ce-41e3-be92-5dd15f71919a"
+                                    "id": "7cfc50aa-dcac-478c-8d08-0230b79167ec"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -273,7 +272,7 @@
                                     "id": "a6114e98-21d1-412f-a50d-a670c4c926d6"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -294,7 +293,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "055762a3-4163-4827-8bc1-ed0a88d0ca56"
+                                    "id": "9996b4f5-0e57-4f97-9efa-55344d51a36a"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -376,7 +375,7 @@
                                     "id": "d9f37931-a2e4-417a-a0e8-e39cf2a1b123"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -397,7 +396,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "566cbe5b-413b-4dc4-8258-b1fce262aa16"
+                                    "id": "a9796ef9-fd0a-4e86-9472-9131f45622e1"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -478,7 +477,7 @@
                                     "id": "362e7b67-d1bf-4386-8ac1-e3d66fae0836"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -499,7 +498,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "f9532cbf-4a7d-441d-b0d9-2b1f09d51014"
+                                    "id": "07289fb9-a686-4ddd-8612-8c79971be58c"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -580,7 +579,7 @@
                                     "id": "292042a3-1299-400b-bdc5-f97ba1029103"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -601,7 +600,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "905ac77b-2185-4591-8ab2-91208116b6e6"
+                                    "id": "59243779-b0e6-4155-a541-13ca5f7a25ac"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -682,7 +681,7 @@
                                     "id": "72a27a8b-5a17-4053-b5b4-64eea91052d8"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -703,7 +702,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "dd6a5405-af55-422b-85e5-53fc2d764f9e"
+                                    "id": "6c766f12-ed1a-4af6-95bb-0106f624933a"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -784,7 +783,7 @@
                                     "id": "fa2a71f8-06bc-412a-8bf5-ef8aec787de9"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -805,7 +804,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "7de92ccb-0351-4d95-b802-ae029f7eba5c"
+                                    "id": "cb1eee90-d6e7-49ac-80b0-f13e610f14a8"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -886,7 +885,7 @@
                                     "id": "d1c1f07d-6e55-43a4-8d21-728625386012"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -907,7 +906,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "5c8d0894-7210-479e-8129-e5f7b6bc8dad"
+                                    "id": "36d3bb9f-979b-40fa-8362-185995dbb11a"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -988,7 +987,7 @@
                                     "id": "2afa8b5e-d07c-440e-8567-2f3a0a430223"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -1009,7 +1008,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "1d321adc-b6cb-4f0e-96bc-9df9fce14c17"
+                                    "id": "bf78a913-818a-42c4-a544-032217fe2d86"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -1091,7 +1090,7 @@
                                     "id": "694bc6f1-4394-49d2-bb87-3b79d8bea97e"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -1112,7 +1111,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "cd1e164d-cb27-4a44-b17d-a20bc740cc73"
+                                    "id": "46dcdd7e-50ef-44e2-90bd-61bbfa33e7bf"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -1193,7 +1192,7 @@
                                     "id": "ba15cc7e-bccc-4c43-9e3d-d0562c852320"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -1214,7 +1213,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "29f535a5-9f9c-4ea2-b1ab-7caa2c7f4801"
+                                    "id": "f4346e4c-8c1e-4a0c-9128-0a9507e6efa4"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -1295,7 +1294,7 @@
                                     "id": "36cf10b4-79ec-446d-803d-316db1adeac8"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -1316,7 +1315,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "21bd28c8-0151-442b-a9e5-b4ce8be1b5e1"
+                                    "id": "7b41417c-862a-4cff-9819-6433c0222cb7"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -1401,7 +1400,7 @@
                                     "id": "0ecfbd49-93ff-44db-8672-825c945d840a"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "121",
                                       "flag1": false,
@@ -1422,7 +1421,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "63457c3f-e400-46ea-8935-f712cab01b45"
+                                    "id": "ed52a1ef-3459-4fb7-aced-9c3960be7427"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -1554,7 +1553,7 @@
                                     "id": "ca8710e5-ea86-4e20-b2c8-3fd1338ad106"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": true,
@@ -1575,7 +1574,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "0c8c3447-6b59-41d6-9cfb-41ba4016ea55"
+                                    "id": "68026b2a-7eb8-4b8c-a5d9-67ffc5fe00a6"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -1656,7 +1655,7 @@
                                     "id": "ce05987e-792a-46f5-9336-72357b7d9d61"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -1677,7 +1676,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "02c87153-34fb-45de-8c85-260f1f1baca8"
+                                    "id": "f2e85d96-730e-49af-90ad-a33643fe29ac"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -1758,7 +1757,7 @@
                                     "id": "35120a4c-1686-4f4a-b793-93f215fdbaed"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -1779,7 +1778,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "032a2d74-5284-40cc-817f-f435a2f57216"
+                                    "id": "7a9290f9-5f50-448a-977f-b74f5abaebcb"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -1860,7 +1859,7 @@
                                     "id": "a09a5054-4876-4976-a985-05a5d62ca25f"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -1881,7 +1880,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "4fabe6a1-eb2c-4802-8377-61bf6d8e48e1"
+                                    "id": "bdf41751-7ede-494b-a28e-9a535625942f"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -1962,7 +1961,7 @@
                                     "id": "a264062d-3a1a-41fb-bb02-b9ed40725a80"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -1983,7 +1982,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "32f75087-abdb-4049-86d5-700ef2ca68b7"
+                                    "id": "b5bd3035-f69c-411d-8ec3-8a528517b8a4"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -2064,7 +2063,7 @@
                                     "id": "8701e78a-9073-4c36-9d4f-9bfb99e738e4"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -2085,7 +2084,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "66936f9c-f009-4c89-ae40-142082470d70"
+                                    "id": "9292b831-822f-4bad-8c0b-919366b2384e"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -2166,7 +2165,7 @@
                                     "id": "9af76be4-d90c-45ba-a316-1fa9af24367c"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -2187,7 +2186,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "11bfd771-99e2-4d4b-b69b-dbb466ff1c61"
+                                    "id": "c0912c7d-f8a0-4414-9249-fc834dc0942c"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -2268,7 +2267,7 @@
                                     "id": "a713844f-c85f-4a9f-a789-e3a8d048a88e"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -2289,7 +2288,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "be9e8bda-d6b7-4b20-966a-aba5d31e3b8f"
+                                    "id": "eea2108d-896f-4cf6-a060-3920e099cb0e"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -2370,7 +2369,7 @@
                                     "id": "1127b24a-288b-45c2-9186-b44098680fcb"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -2391,7 +2390,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "b32e964e-c4b7-4dce-b0df-a2b451bf6353"
+                                    "id": "ee869ed1-7b75-42b6-bd3e-72ed00ddc08e"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -2472,7 +2471,7 @@
                                     "id": "2ac6fe36-6ea2-4986-a152-854c9a07e8db"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -2493,7 +2492,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "3f932a9d-39b9-464b-aa79-0570cfabcff7"
+                                    "id": "80f158fa-f039-472a-8b91-54072065e8bf"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -2574,7 +2573,7 @@
                                     "id": "979e930e-23f0-47ac-84b1-8c9a30bf057f"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -2595,7 +2594,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "4a60f024-85bd-4486-864e-e19e2ad85fdb"
+                                    "id": "7013b4fd-9174-4b8e-b3bb-37f392230843"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -2676,7 +2675,7 @@
                                     "id": "1846dbb8-32d1-4727-a942-068da1179edc"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -2697,7 +2696,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "50bbb8b4-e798-49a1-b27c-aa7eaaa689ea"
+                                    "id": "35e0f7ba-d2db-4f82-8c30-473e87ffa1e3"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -2782,7 +2781,7 @@
                                     "id": "9e574763-f905-4749-87fc-3636306f20f2"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "120",
                                       "flag1": false,
@@ -2803,7 +2802,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "1e36885a-06b4-44d1-bf4d-3036bd3e0b05"
+                                    "id": "00b09fbf-01c5-42cb-9168-900001810e82"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -2935,7 +2934,7 @@
                                     "id": "421f833e-3832-4257-a3bb-c91615c09b9a"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": true,
@@ -2956,7 +2955,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "404aef0d-310b-4f6e-a544-2ec9a0c84c66"
+                                    "id": "b46cc62b-0bdb-4562-8fbf-e9bacca474d1"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -3037,7 +3036,7 @@
                                     "id": "86f41eff-12aa-471d-a977-1bff64f4fe1b"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -3058,7 +3057,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "67fda373-1104-4c8d-817e-f36f3fd9070e"
+                                    "id": "37165bfc-21e5-43fa-95aa-4a30501b9781"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -3139,7 +3138,7 @@
                                     "id": "01f3fd00-a8ee-4a18-ac10-10c792cdc1e8"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -3160,7 +3159,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "44137e3c-f151-40ab-9c5f-7495e8a9a0c9"
+                                    "id": "be35c318-bb6f-4dec-aab5-bc7cbea83597"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -3241,7 +3240,7 @@
                                     "id": "81352184-50f2-4479-a278-712c66a45503"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -3262,7 +3261,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "f0fa4a30-6cd5-402f-aa2d-7e30b7e0a7ea"
+                                    "id": "567d3f96-f40e-4250-8f38-8fbdedb72a2b"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -3343,7 +3342,7 @@
                                     "id": "b7fd6c6e-c7da-47fa-ae15-2dc1871d6d94"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -3364,7 +3363,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "603a811b-4ff9-4e7b-9e72-fc4281fa0830"
+                                    "id": "274e7298-b49a-4625-9b94-c063c632a143"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -3446,7 +3445,7 @@
                                     "id": "1b4170d6-2c14-4769-a34e-ae930f11a0d7"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -3467,7 +3466,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "1e7f7f75-2e77-4f2a-9573-f01767d01c0e"
+                                    "id": "5ab79251-4a55-4cab-bf3f-0aedc473d387"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -3548,7 +3547,7 @@
                                     "id": "aa8f6593-6ce9-438a-b6e1-4ebd234cd5ad"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -3569,7 +3568,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "e8ee09e1-ccc2-4afc-8565-5e7ff72d7a5c"
+                                    "id": "6221312b-a8c9-4a26-ba1c-83029b238558"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -3650,7 +3649,7 @@
                                     "id": "2cca51fe-33d2-423f-817c-81375b853f03"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -3671,7 +3670,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "d11c5657-cc44-44f0-8a73-3d5972704f52"
+                                    "id": "c62a0bbd-dc12-4c5d-8628-084c3b8920d7"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -3752,7 +3751,7 @@
                                     "id": "95fcf830-8a42-4e35-a0d6-2b95356cdc00"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -3773,7 +3772,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "15c1742e-1fb3-4963-9ff2-4954edb7262e"
+                                    "id": "6dd4c290-464c-493c-a213-c679372c7070"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -3854,7 +3853,7 @@
                                     "id": "00ffbc55-3859-4f98-b0d5-e427fcb427d3"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -3875,7 +3874,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "e311b129-2906-4436-ba96-efbfbc3f050d"
+                                    "id": "3b3982cf-a0dd-4e90-977e-90a537b073b4"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -3956,7 +3955,7 @@
                                     "id": "4d08ebbc-3460-435b-a669-170619970e35"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -3977,7 +3976,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "199f066e-6222-445e-be22-fc368ae01d26"
+                                    "id": "00b7955d-7837-49ee-bb85-79ade8e66f96"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -4058,7 +4057,7 @@
                                     "id": "68b762fe-1065-43aa-a2cd-caee28bfb0d0"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -4079,7 +4078,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "732f59d0-7075-47ed-95dc-1e5e40bb8110"
+                                    "id": "e5793885-931b-4bb0-a005-c2154eaa9b49"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -4164,7 +4163,7 @@
                                     "id": "15c41c01-6d41-41fc-abd9-623663118a8e"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "111",
                                       "flag1": false,
@@ -4185,7 +4184,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "315025b1-3199-46c4-8d18-bf61092d6061"
+                                    "id": "600b6db9-a377-4832-ad51-afb459e2cfe0"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -4330,7 +4329,7 @@
                                     "id": "2503fe60-b6da-411c-9c16-321513c23dd7"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": true,
@@ -4351,7 +4350,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "f76a6538-7328-47e7-a924-a1d5ea07c40c"
+                                    "id": "93241050-5beb-42eb-836f-83c4cb30df4e"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -4432,7 +4431,7 @@
                                     "id": "5a791392-d588-41d8-8499-2c7ebf9cb474"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -4453,7 +4452,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "47805abf-add2-4ebb-bd9a-a4fc5c3e4294"
+                                    "id": "53f60a2e-e5c2-4c2e-9c3c-7f233ae7fdc0"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -4534,7 +4533,7 @@
                                     "id": "439664f0-e512-46cb-8034-c74e20522082"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -4555,7 +4554,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "b08d9b89-3acb-436c-980a-d21fa7270216"
+                                    "id": "d6b0e048-9501-4b3f-925e-953f48073c2f"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -4636,7 +4635,7 @@
                                     "id": "0600e2c0-35b2-481f-a566-0255af3db0e4"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -4657,7 +4656,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "744c02ae-6f6c-467e-9338-b10dac2cc437"
+                                    "id": "d0616c75-8b7f-4e91-90ff-e6c88fb85ea9"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -4738,7 +4737,7 @@
                                     "id": "41ca417a-a573-4457-8a78-d60807df95fd"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -4759,7 +4758,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "a26a9161-fa2e-4e1b-8dc8-814da603351f"
+                                    "id": "14a246cf-f080-41e5-978d-de559dcbe15f"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -4840,7 +4839,7 @@
                                     "id": "5b268cd0-5ecf-49be-b918-63545065f56d"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -4861,7 +4860,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "a95cc863-f1d2-4714-a921-16b58e9e5a83"
+                                    "id": "0ba43c81-e28e-43aa-a8d6-f1ffef677a6b"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -4942,7 +4941,7 @@
                                     "id": "1b894048-1095-4f2b-ac87-dda6a3d5ddd2"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -4963,7 +4962,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "1f3ee7c3-c67e-4ca3-9f06-fee3974b2b15"
+                                    "id": "1793d81e-daa7-405c-aea2-b8477150b1a5"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -5044,7 +5043,7 @@
                                     "id": "03d1e748-4a87-464e-9fcf-7e3d3bb6c518"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -5065,7 +5064,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "a1656745-633f-4ac7-8bc3-eee62e8d5995"
+                                    "id": "b40a4e05-b82d-488f-967c-1676bdbad331"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -5146,7 +5145,7 @@
                                     "id": "a65975a7-5419-432e-8147-28facea35d9e"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -5167,7 +5166,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "8bbdc422-8931-4e5c-89e9-14d693899133"
+                                    "id": "23a66afe-6438-4537-830a-eb3ea25728fb"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -5248,7 +5247,7 @@
                                     "id": "6a132465-b23c-4bde-919f-6352efca32e9"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -5269,7 +5268,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "1a94d4dc-afe0-44f9-ba02-14c8cd7ec017"
+                                    "id": "43798994-b578-405f-9955-ac705ed0b0c2"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -5350,7 +5349,7 @@
                                     "id": "56a05642-caa3-4eb0-9f29-7b64be645559"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -5371,7 +5370,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "6ea98c65-bf97-4153-b775-e573e22e0b09"
+                                    "id": "6bdd5f66-6c46-4677-a3ab-823db6972868"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -5452,7 +5451,7 @@
                                     "id": "a8290132-9bcf-48fe-9ed3-ea91c3229ad8"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -5473,7 +5472,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "e74dd21b-4a17-4382-b723-3d8584022043"
+                                    "id": "4a586c94-50f3-47d5-b1bb-6bcd4ecb3d32"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",
@@ -5558,7 +5557,7 @@
                                     "id": "7f30709f-6b97-47d4-8915-02cd4f046d1c"
                                   },
                                   {
-                                    "command": "EVENT_ADD_FLAGS",
+                                    "command": "EVENT_SET_FLAGS",
                                     "args": {
                                       "variable": "119",
                                       "flag1": false,
@@ -5579,7 +5578,7 @@
                                       "flag16": false,
                                       "__collapse": true
                                     },
-                                    "id": "280f9de8-f832-4f2d-92d3-9fd73df8eed0"
+                                    "id": "15c52925-8ce8-4e66-ac22-48f4258b936c"
                                   },
                                   {
                                     "command": "EVENT_SET_VALUE",

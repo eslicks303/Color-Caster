@@ -37,7 +37,7 @@
         "frames": 1,
         "__scriptTabs": "end",
         "units": "frames",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {

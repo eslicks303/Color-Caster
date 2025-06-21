@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c76443ff-ab30-4efd-b527-b0db9d81a38a",
-  "_index": 13,
+  "_index": 10,
   "type": "TOPDOWN",
   "name": "Card Game Table",
   "symbol": "scene_14",
@@ -12,7 +12,7 @@
   "backgroundId": "937d838e-f713-499a-96f5-0984d0874f9c",
   "tilesetId": "",
   "paletteIds": [
-    "default-bg-1",
+    "4de3093e-b900-49c6-bd6f-e013327f28ac",
     "",
     "",
     "",
@@ -153,7 +153,7 @@
               "value": {
                 "type": "false"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "709dcf57-a84f-490a-bc5b-879139db7f74"
           },

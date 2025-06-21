@@ -55,7 +55,8 @@
           {
             "command": "EVENT_SCENE_POP_ALL_STATE",
             "args": {
-              "fadeSpeed": 1
+              "fadeSpeed": 1,
+              "__collapse": true
             },
             "id": "8e7fdd4a-d1ad-4183-9fc8-dd2d2ba1f6fa"
           }

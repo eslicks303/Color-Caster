@@ -794,9 +794,77 @@
               },
               "swap50_x": 0,
               "swap50_y": 0,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "544fd42b-dd59-4b60-82e4-071fa355d123"
+          },
+          {
+            "command": "BANK_1_MANIP_PLUGIN_CALL_BANK_1_BKG_EVENT",
+            "args": {
+              "funName": "setBkgTileColor",
+              "coordX": {
+                "type": "number",
+                "value": 6
+              },
+              "coordY": {
+                "type": "number",
+                "value": 6
+              },
+              "tileColor": 0,
+              "__collapse": true
+            },
+            "id": "3fe26c38-6e0e-4c72-beea-7302a09abb31"
+          },
+          {
+            "command": "BANK_1_MANIP_PLUGIN_CALL_BANK_1_BKG_EVENT",
+            "args": {
+              "funName": "setBkgTileColor",
+              "coordX": {
+                "type": "number",
+                "value": 7
+              },
+              "coordY": {
+                "type": "number",
+                "value": 6
+              },
+              "tileColor": 0,
+              "__collapse": true
+            },
+            "id": "564ac23a-c2c7-4d55-b8ce-8fd6ee0250a7"
+          },
+          {
+            "command": "BANK_1_MANIP_PLUGIN_CALL_BANK_1_BKG_EVENT",
+            "args": {
+              "funName": "setBkgTileColor",
+              "coordX": {
+                "type": "number",
+                "value": 6
+              },
+              "coordY": {
+                "type": "number",
+                "value": 7
+              },
+              "tileColor": 0,
+              "__collapse": true
+            },
+            "id": "91af0f03-86c5-4652-877f-e26f597581bc"
+          },
+          {
+            "command": "BANK_1_MANIP_PLUGIN_CALL_BANK_1_BKG_EVENT",
+            "args": {
+              "funName": "setBkgTileColor",
+              "coordX": {
+                "type": "number",
+                "value": 7
+              },
+              "coordY": {
+                "type": "number",
+                "value": 7
+              },
+              "tileColor": 0,
+              "__collapse": true
+            },
+            "id": "183cd6c7-e59e-4267-a2b1-6873af8a3d6c"
           }
         ]
       },
