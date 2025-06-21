@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "33286448-92bc-46ac-a0da-a638b247b490",
+  "name": "World_Map",
+  "symbol": "bg_world_map",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "World_Map.png",
+  "tileColors": "02168+",
+  "autoColor": false
+}

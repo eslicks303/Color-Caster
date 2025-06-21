@@ -1,0 +1,361 @@
+{
+  "_resourceType": "script",
+  "id": "ce6a4710-f173-4cab-80db-b3bebace5c25",
+  "name": "Item-Wand",
+  "symbol": "script_23",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Item Event Group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Animate Manually",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 255,
+                    "__collapse": true
+                  },
+                  "id": "57f17022-e879-499e-8178-00a61e4d0349"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "Wand",
+                    "__collapse": true,
+                    "__comment": false
+                  },
+                  "id": "018dfece-7a99-4492-b66d-8489640cefa4"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "b8a6fb1d-280a-4353-83ab-41dab92653e2",
+                    "persist": false,
+                    "__comment": true
+                  },
+                  "id": "eeec4f4e-efe2-4d76-96a0-dfccc1e85fab"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_FRAME",
+                  "args": {
+                    "actorId": "$self$",
+                    "frame": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "c511562f-438e-438b-9034-c1e049b53029"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.5,
+                    "frames": 2,
+                    "units": "frames",
+                    "__collapse": true
+                  },
+                  "id": "81030ed7-eb93-4da9-acf1-15715c8dd0cc"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_FRAME",
+                  "args": {
+                    "actorId": "$self$",
+                    "frame": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "df9bf137-ad65-48c8-8d28-cf68f6cd1c00"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.5,
+                    "frames": 2,
+                    "units": "frames",
+                    "__collapse": true
+                  },
+                  "id": "e469fcd4-ada4-4e61-a723-5020456ca7fb"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_FRAME",
+                  "args": {
+                    "actorId": "$self$",
+                    "frame": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "__collapse": true
+                  },
+                  "id": "0222cf41-64ee-4871-989c-5fe6988fb660"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.5,
+                    "frames": 5,
+                    "units": "frames",
+                    "__collapse": true
+                  },
+                  "id": "716100c8-ba5a-477a-8990-3e8ccf94a5d7"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "",
+                    "__collapse": true,
+                    "__comment": false
+                  },
+                  "id": "6e205c51-f0e6-4055-b8dd-382964072481"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "2b009004-0398-468f-9022-d4f508294b0a",
+                    "persist": false,
+                    "__comment": true
+                  },
+                  "id": "13032fb0-7534-434d-bbc4-71202d8ca1f9"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 7,
+                    "__collapse": true
+                  },
+                  "id": "29fb95ad-0940-4fd9-a980-0c0d013e27c2"
+                }
+              ]
+            },
+            "id": "f4aec206-369a-45b0-9cd6-a6c1ffe2346d"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Shoot ball",
+              "__collapse": false,
+              "__comment": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "left"
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_LAUNCH_PROJECTILE",
+                        "args": {
+                          "spriteSheetId": "d32cd2c1-62ec-4771-a96e-0daf3fcac787",
+                          "spriteStateId": "",
+                          "actorId": "$self$",
+                          "x": -16,
+                          "y": 16,
+                          "otherActorId": "$self$",
+                          "direction": "right",
+                          "angle": 0,
+                          "angleVariable": "0",
+                          "directionType": "actor",
+                          "initialOffset": 0,
+                          "speed": 2,
+                          "animSpeed": 63,
+                          "lifeTime": 0.25,
+                          "loopAnim": false,
+                          "destroyOnHit": true,
+                          "collisionGroup": "3",
+                          "collisionMask": [
+                            "2",
+                            "1",
+                            "3"
+                          ],
+                          "__collapse": false
+                        },
+                        "id": "c5045504-b04e-4d77-928d-7f665c0a32d3"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "67c8b903-2a2f-4ce9-83b4-4eec4d964e92"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "up"
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_LAUNCH_PROJECTILE",
+                        "args": {
+                          "spriteSheetId": "d32cd2c1-62ec-4771-a96e-0daf3fcac787",
+                          "spriteStateId": "",
+                          "actorId": "$self$",
+                          "x": 8,
+                          "y": 32,
+                          "otherActorId": "$self$",
+                          "direction": "right",
+                          "angle": 0,
+                          "angleVariable": "0",
+                          "directionType": "actor",
+                          "initialOffset": 0,
+                          "speed": 2,
+                          "animSpeed": 63,
+                          "lifeTime": 0.25,
+                          "loopAnim": false,
+                          "destroyOnHit": true,
+                          "collisionGroup": "3",
+                          "collisionMask": [
+                            "3",
+                            "2",
+                            "1"
+                          ],
+                          "__collapse": false
+                        },
+                        "id": "67a92174-7be7-4f84-8a99-e1531177493d"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "1eb77dd6-cefb-4ccd-969e-38d569b50f8e"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_LAUNCH_PROJECTILE",
+                        "args": {
+                          "spriteSheetId": "d32cd2c1-62ec-4771-a96e-0daf3fcac787",
+                          "spriteStateId": "",
+                          "actorId": "$self$",
+                          "x": 0,
+                          "y": 0,
+                          "otherActorId": "$self$",
+                          "direction": "right",
+                          "angle": 0,
+                          "angleVariable": "0",
+                          "directionType": "actor",
+                          "initialOffset": 0,
+                          "speed": 2,
+                          "animSpeed": 63,
+                          "lifeTime": 0.25,
+                          "loopAnim": false,
+                          "destroyOnHit": true,
+                          "collisionGroup": "3",
+                          "collisionMask": [
+                            "2",
+                            "3",
+                            "1"
+                          ],
+                          "__collapse": false
+                        },
+                        "id": "5a69ffde-063f-446c-8014-69c2ed3752fa"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "79961eaa-4956-440b-9c34-838438e0b2c7"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "right"
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_LAUNCH_PROJECTILE",
+                        "args": {
+                          "spriteSheetId": "d32cd2c1-62ec-4771-a96e-0daf3fcac787",
+                          "spriteStateId": "",
+                          "actorId": "$self$",
+                          "x": 16,
+                          "y": 16,
+                          "otherActorId": "$self$",
+                          "direction": "right",
+                          "angle": 0,
+                          "angleVariable": "0",
+                          "directionType": "actor",
+                          "initialOffset": 0,
+                          "speed": 2,
+                          "animSpeed": 63,
+                          "lifeTime": 0.25,
+                          "loopAnim": false,
+                          "destroyOnHit": true,
+                          "collisionGroup": "3",
+                          "collisionMask": [
+                            "2",
+                            "3",
+                            "1"
+                          ],
+                          "__collapse": false
+                        },
+                        "id": "b254f46b-7b9c-45d0-81d8-2514decc4dbe"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "45e585b3-979f-4baf-8ac7-f3b3ec7d07af"
+                }
+              ]
+            },
+            "id": "1aad11f6-6d58-4b97-b66c-d10728ea13c0"
+          }
+        ]
+      },
+      "id": "58291a15-18c8-4032-9dab-4146c3e0433e"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_resourceType": "scene",
+  "id": "cdc8df40-8b40-4a7a-97d4-0ad3b611b708",
+  "_index": 14,
+  "type": "LOGO",
+  "name": "Cards",
+  "symbol": "scene_15",
+  "x": 60,
+  "y": 1786.090909090909,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "0fb7b069-2006-49b8-b650-5363824ea34e",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

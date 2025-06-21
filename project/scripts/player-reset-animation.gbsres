@@ -1,0 +1,27 @@
+{
+  "_resourceType": "script",
+  "id": "d134c3b7-b6df-4926-9b1e-6cce040dcf92",
+  "name": "Player-Reset-Animation",
+  "symbol": "script_28",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Is player in the grass?",
+        "__collapse": true
+      },
+      "id": "0021ae80-80de-4ab0-9a5f-fa4ed6471de5"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Is player in darkness?",
+        "__collapse": true
+      },
+      "id": "a71fceac-bb93-481f-9150-72dfceff4327"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "_resourceType": "script",
+  "id": "26b53cb6-b160-4ffe-a499-73406f23691c",
+  "name": "Set Pause",
+  "symbol": "script_6",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "21059fec-9235-45b6-9d0c-791f7fd477ef"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1c0738ca-cf0b-42f7-b975-71b7b69b639f",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "665ff382-028e-4eab-b072-0396a2488f4a"
+          }
+        ]
+      },
+      "id": "2586821c-342c-4bad-892c-d644c56a3654"
+    }
+  ]
+}

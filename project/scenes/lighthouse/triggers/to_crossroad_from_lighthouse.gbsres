@@ -1,0 +1,110 @@
+{
+  "_resourceType": "trigger",
+  "id": "68db45ad-d464-4770-9f6b-9e1854b5df99",
+  "_index": 0,
+  "symbol": "trigger_21",
+  "prefabId": "",
+  "name": "To Crossroad from Lighthouse",
+  "x": 4,
+  "y": 29,
+  "width": 11,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "355c5e6a-bf72-41d7-a462-6e09b3b016e1",
+              "__collapse": true
+            },
+            "id": "91355c47-b404-4810-a365-60f26451c36c"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "0",
+              "vectorY": "1",
+              "__collapse": true
+            },
+            "id": "a0f7d9ac-a32b-4de3-b596-49873bd3952b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "number",
+                "value": 3
+              },
+              "__collapse": false
+            },
+            "id": "f7be9d10-b59c-4bc1-917c-76bdb2cbbc72"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "0",
+              "operation": "add",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 13,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
+              "__collapse": true
+            },
+            "id": "3c728238-4177-4f17-adbd-6f4caf6d4e8d"
+          },
+          {
+            "command": "GF_EVENT_FADE_STREET_AUTO_FADE_OUT",
+            "args": {
+              "endpoint": "White",
+              "starting_r": 0,
+              "starting_g": 0,
+              "starting_b": 0,
+              "dmg_endpoint": "normal",
+              "speed": "2",
+              "__collapse": true
+            },
+            "id": "503856e4-2bc9-459f-820e-4522e266a08f"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "24176054-6256-474a-b2a9-50c139002973",
+              "x": {
+                "type": "number",
+                "value": 26
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "down",
+              "fadeSpeed": 1,
+              "__collapse": false
+            },
+            "id": "15d278b8-4f73-4e15-b2dd-457b9e820dd6"
+          }
+        ]
+      },
+      "id": "fc3fc811-fa30-47a7-ac73-f4c21a015748"
+    }
+  ],
+  "leaveScript": []
+}

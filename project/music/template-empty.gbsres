@@ -1,0 +1,11 @@
+{
+  "_resourceType": "music",
+  "id": "299a61c1-627f-4a63-ac15-5524e8fb7643",
+  "name": "template-empty",
+  "symbol": "song_template_empty",
+  "filename": "template-empty.mod",
+  "settings": {
+    "disableSpeedConversion": true
+  },
+  "type": "mod"
+}

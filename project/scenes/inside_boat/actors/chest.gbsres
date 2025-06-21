@@ -1,0 +1,214 @@
+{
+  "_resourceType": "actor",
+  "id": "cfc8d787-543d-4002-9a6b-96c353c6b121",
+  "_index": 0,
+  "symbol": "actor_13",
+  "prefabId": "",
+  "name": "Chest",
+  "x": 12,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "bd66a217-1583-4b38-9a45-11e981911044",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "81",
+        "__collapseElse": true,
+        "__disableElse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "81"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "6a9f4fdc-3d1f-4153-a502-ac8c413b4707"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "79",
+              "operation": "add",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 10,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false
+            },
+            "id": "1064f635-378b-4639-b27b-1c4b54522d21"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "10d812f9-54ea-4617-8023-0668954dc6e5",
+              "__collapse": true
+            },
+            "id": "0a66c6a6-053c-4d22-b46f-87d1270eb4fa"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "10d812f9-54ea-4617-8023-0668954dc6e5",
+              "__collapse": true
+            },
+            "id": "613680d8-8556-4b5c-9965-027366131310"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "10d812f9-54ea-4617-8023-0668954dc6e5",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": -1
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "1edee530-7275-4858-a00f-b451c0c4d713"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "player",
+              "spriteStateId": "Got Item!",
+              "__comment": false
+            },
+            "id": "8a24f37f-a010-4bd4-b7d2-318035b381a3"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "ca4bbcb5-8636-4577-85ec-e2b073ca15b8",
+              "persist": false,
+              "__comment": true
+            },
+            "id": "998b0b45-6313-41da-82ba-63710147d1d9"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You got 10 gold!\nDon't spend it\nin one place!"
+              ],
+              "avatarId": ""
+            },
+            "id": "9b28a731-b375-4e68-b8ba-15e1e0556930"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "10d812f9-54ea-4617-8023-0668954dc6e5",
+              "__collapse": true
+            },
+            "id": "2ed6e842-299a-4c83-92ec-7d66599b8b03"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "10d812f9-54ea-4617-8023-0668954dc6e5",
+              "__collapse": true
+            },
+            "id": "103602c1-ee19-4e0c-aeb7-0cd5b7081ad9"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "player",
+              "spriteStateId": "",
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "e96cfdd4-24b8-4857-89be-9db6f2dc6b30"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "2b009004-0398-468f-9022-d4f508294b0a",
+              "persist": false,
+              "__comment": true
+            },
+            "id": "bce74bd2-a99b-41dc-a779-a49b5119cdc1"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "81",
+              "__collapse": true,
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "16942ecb-6398-447f-8a3e-55d9b886358e"
+          }
+        ],
+        "false": []
+      },
+      "id": "4f050b5a-f54b-4eee-a67a-5d350f06a2ab"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "81",
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "81"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "cfc8d787-543d-4002-9a6b-96c353c6b121",
+              "frame": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "f2923347-221a-435d-acfd-19ff5cf292d4"
+          }
+        ],
+        "false": []
+      },
+      "id": "b53ed6d9-368e-4c5e-9ef3-d1320c04808a"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

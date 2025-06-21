@@ -1,0 +1,743 @@
+{
+  "_resourceType": "script",
+  "id": "3e5d9004-5ed6-4fce-a045-148902f6c0ed",
+  "name": "Card Reset Delt",
+  "symbol": "script_12",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Reset Spades",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "bf28a982-6f81-4d90-a34d-0d91dfa3861a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "11",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "5c33a9b5-0fcf-47a4-bf48-d4860a5dde30"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "aad78c68-8e55-44f5-9b58-5b8ed978895e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "13",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "86911aa6-520c-4a52-9dab-269e2986e099"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "14",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "eb205267-64ba-4014-8277-a1ee4ad2d4ef"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "15",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "990cf8ff-2e6b-4f73-bd3b-234c85361b1c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "563cd264-4514-4e5c-b0f6-dcc3bad2130a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "17",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "4608b5f6-f61a-4f95-a556-fb562845cf73"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "18",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "f2b585f0-52e6-4fdb-a542-5ecfeb985be1"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "c30b37ea-8db6-4333-b7c6-0f7aeb317fa2"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "20",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "1bfa4f09-9c9b-4d05-8d75-a36ce2f2199c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "1d73da41-0777-4964-812d-cdf0d3df734a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "22",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "13424b1c-6a78-443f-b4ce-3f0bbba4953a"
+          }
+        ]
+      },
+      "id": "cd2007ba-2c9e-48e0-af2b-c3aae95515c8"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Reset Hearts",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "27",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "5ebcfff8-4def-4ffe-bde8-dec014b01803"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "09fbe748-6854-4f74-853e-b07a36cfd832"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "29",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "fd7ef3b6-8fbc-4349-aedb-321aa7d2857f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "30",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "f9eaab89-ecf0-41eb-85bc-15a0aab096b8"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "31",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "8a2f3eaa-d20e-47ff-b710-68c1f9952286"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "32",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "e4dd1d03-4a48-448b-abd1-84998790c7f8"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "33",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "77db595f-fe1d-4f1f-aa23-d9b39dcd7bfa"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "34",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "6568ac7a-9a1d-421b-be93-09e407fea65a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "35",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "7c086fe8-d9c8-4297-ad5d-24255c8e4a30"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "36",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "6750f042-a0ec-4878-a530-d3f811a55d49"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "585ace32-68e9-44dd-9bf8-978ee482e74d"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "38",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "12eb338f-5967-4fac-ac96-ebdfbaab8afe"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "39",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "75520e13-b374-4d37-8d8e-5bb2adc7f3b2"
+          }
+        ]
+      },
+      "id": "dd91e6ac-9ade-4a57-9497-9568db262add"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Reset Clubs",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "40",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "a1e8f83a-a6c6-4b16-97b8-d30e20d18947"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "41",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "9e773546-9629-4446-98ba-20d7e26c575a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "42",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "7b71d72b-de88-4b17-98d0-e44f28315b21"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "43",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "50a121fc-923d-46a9-a177-7acd5db6b609"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "44",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "1a6680cf-940f-4ef7-9b78-8cbebed9cac5"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "45",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "8c9c5a97-5c47-4307-82ce-b7e59a376e3b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "46",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "d530193c-7125-4797-9ccd-03073882f312"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "47",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "db5db6a4-3c5a-4a42-aabe-160e1eb00add"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "48",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "57b545d5-e2a6-4f9c-a979-20178fc2e548"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "49",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "0a11a271-8137-4902-af61-098abc2290f3"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "50",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "6ad7017c-74f0-495d-bc76-06a592275089"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "51",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "11c773c6-564a-4ca3-abbf-1f7184ea14a7"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "52",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "f5248c6d-1284-450f-9973-b59198220f0d"
+          }
+        ]
+      },
+      "id": "5633a0da-328a-4b73-b6b1-0b7d320b3ccd"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Reset Diamonds",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "53",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "fd4fff8e-b7f9-4203-bbee-35e112affcf9"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "54",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "0339344c-d446-41a8-82fe-afae853939fb"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "55",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "928135af-1d8c-4419-9b73-67705d5418a0"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "56",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "83526e33-d04a-4a67-984a-48658f0daa00"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "57",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "9f7cc7f0-6692-423a-931a-b578bcaff64c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "58",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "9c842a0c-87f1-4469-961b-0fc183ba0cc5"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "59",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "c4437827-2ed1-4a44-9fb4-9b98c13ef460"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "60",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "29b68d0e-0ee2-4e33-af94-96d46c0e2675"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "61",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "e6fc8057-b05c-4769-b238-61c99504ec78"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "62",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "3daf6097-9260-4272-a512-e6f13cd0ee38"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "63",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "0b9683fa-6954-4ad6-a220-97326061eda0"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "64",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "e4badd58-2926-41a3-b7e2-bbe825f94319"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "65",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "0fe31e36-0961-4e82-bfb8-1b4cd911bc11"
+          }
+        ]
+      },
+      "id": "316c5a17-67ec-439c-935e-3c146577ffc8"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Reset Variables"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Player Vars"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "26",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "f58c1680-86b4-411f-b7af-554f7caa3f81"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "67",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "a7f61cc4-b3e2-420c-81d7-a35590224a79"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "66",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "991f910c-2c44-488f-8786-5adb7a7d7191"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "69",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "261c0a4d-7011-45d5-8645-6bdedfecb22c"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "118",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "846a2cd3-95e8-498d-bc71-d53c612aae52"
+                }
+              ]
+            },
+            "id": "4da01366-bfd7-4c2f-9931-6935004923d6"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Dealer Vars"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "75",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "47050ee4-e73e-4bcf-88f9-3d8840a17297"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "74",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "0c49b9e5-9b63-4b1d-b398-818296ef006a"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "76",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "d7197f1d-dcd0-45ea-9e68-246ad426343c"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "73",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "ac1fa37f-959a-49f4-811b-c95ab00ba06b"
+                }
+              ]
+            },
+            "id": "4f75fd8b-7706-471f-b775-38366f269285"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "70",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "a4347b58-2480-4d5a-b49b-98bb6de2c0ce"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "71",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "91011e97-d522-4306-ae36-e9a7b2c1fdc0"
+          }
+        ]
+      },
+      "id": "f8bc5fe4-d6f5-407f-9734-17659a4806d0"
+    }
+  ]
+}

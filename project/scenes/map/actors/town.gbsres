@@ -1,0 +1,166 @@
+{
+  "_resourceType": "actor",
+  "id": "1fe05359-dbc7-4f2d-ba1e-fe9a818f3608",
+  "_index": 1,
+  "symbol": "actor_2",
+  "prefabId": "",
+  "name": "Town",
+  "x": 5,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "95f7aed4-8518-4479-8d0b-c19077cee26a",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "Travel to Town"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "3",
+              "items": 2,
+              "option1": "Travel",
+              "option2": "Cancel",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "menu",
+              "cancelOnLastOption": true,
+              "__collapse": true
+            },
+            "id": "5e885168-44c4-4cf3-a518-71707a09b4b4"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "3",
+              "operator": "==",
+              "comparator": 1,
+              "__collapseElse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SCENE_RESET_STATE",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "id": "9af5eb05-15a0-4c6f-b101-6a259a9d4f63"
+                },
+                {
+                  "command": "GF_EVENT_FADE_STREET_AUTO_FADE_OUT",
+                  "args": {
+                    "endpoint": "White",
+                    "starting_r": 0,
+                    "starting_g": 0,
+                    "starting_b": 0,
+                    "dmg_endpoint": "normal",
+                    "speed": "2",
+                    "__collapse": true
+                  },
+                  "id": "6f6d2113-ca89-4fd4-b438-253fc010e0a9"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "f47b83e0-e567-4a7f-ba15-d004e2248143",
+                    "x": {
+                      "type": "number",
+                      "value": 42
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "direction": "down",
+                    "fadeSpeed": 1,
+                    "__collapse": false
+                  },
+                  "id": "0e1effe6-c5fe-4347-adf7-77c10b71b20a"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "3",
+                    "__collapse": true,
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "985f4b81-97af-41b7-916e-736486a986c4"
+                }
+              ],
+              "false": []
+            },
+            "id": "f365e794-d788-4b67-be1e-42683dd80dcb"
+          }
+        ]
+      },
+      "id": "44e6739e-5d82-4389-ae6a-880de531dbba"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "__collapseElse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "0f74f4ec-efc1-4289-94d8-acf56d799fa9"
+          }
+        ],
+        "false": []
+      },
+      "id": "5cdb382f-75b2-40d1-852a-b474e13c399c"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

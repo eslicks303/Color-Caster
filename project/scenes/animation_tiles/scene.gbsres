@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "c8b9885d-4524-4565-bf7a-cfb9517fa7cd",
+  "_index": 5,
+  "type": "LOGO",
+  "name": "Animation Tiles",
+  "symbol": "scene_6",
+  "x": 60,
+  "y": 1581.600000000001,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "a79f5478-9205-4cc2-a9b9-850c022ce7ba",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

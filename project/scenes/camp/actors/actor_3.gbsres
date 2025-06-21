@@ -1,0 +1,100 @@
+{
+  "_resourceType": "actor",
+  "id": "18131997-eab8-469e-b774-ec413d009167",
+  "_index": 2,
+  "symbol": "actor_30",
+  "prefabId": "",
+  "name": "",
+  "x": 5,
+  "y": 11,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c3bc9cf0-c55c-4cfa-9bb9-9a32a4f68738",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "load"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_SAVED_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__collapseElse": false,
+              "__disableElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Saved progress!\nSafe to power off."
+                    ],
+                    "avatarId": "",
+                    "__collapse": false
+                  },
+                  "id": "2dd331cc-cf2c-42d9-a5cc-26f0270f98a5"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Something went\nwrong while\nsaving... :("
+                    ],
+                    "avatarId": "",
+                    "__collapse": true
+                  },
+                  "id": "d916381a-1610-4f23-80ea-8ec7ae5d7f79"
+                }
+              ]
+            },
+            "id": "19486d83-2c49-45ce-bda5-443fae4ce85f"
+          }
+        ],
+        "load": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": 1
+            },
+            "id": "e52df481-3d43-4697-a86c-386c0b8506cf"
+          },
+          {
+            "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+            "args": {
+              "startpoint": "White",
+              "starting_r": 0,
+              "starting_g": 0,
+              "starting_b": 0,
+              "dmg_startpoint": "normal",
+              "speed": "2",
+              "__collapse": false,
+              "__comment": true
+            },
+            "id": "81583eec-6462-46b8-b131-aa044af7aa77"
+          }
+        ]
+      },
+      "id": "055ddd7a-bf63-4de8-9f67-6f8cae8ca9cb"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

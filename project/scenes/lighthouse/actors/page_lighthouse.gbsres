@@ -1,0 +1,42 @@
+{
+  "_resourceType": "actor",
+  "id": "e7ee07da-b1f7-438f-84c3-b48186a31322",
+  "_index": 0,
+  "symbol": "actor_22",
+  "prefabId": "",
+  "name": "Page Lighthouse",
+  "x": 19,
+  "y": 17,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "bdc104ba-31b7-40b4-aaed-344e0e5e55d5",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "22f2a41a-a284-4bc3-80a4-37f18807c5aa"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3543449f-1299-426f-872a-6593c92c7384"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

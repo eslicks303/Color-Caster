@@ -1,0 +1,42 @@
+{
+  "_resourceType": "actor",
+  "id": "1c216716-bc73-403d-b3a8-e233a74cba9f",
+  "_index": 1,
+  "symbol": "actor_12",
+  "prefabId": "534da779-9cd2-41b6-80da-b994ebb9db94",
+  "name": "Beach Coin",
+  "x": 16,
+  "y": 28,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "07ddb5ab-f079-4bc2-8ee2-4e1817515d98",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "51a56b5c-928c-4923-b16a-28340bc07b74"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "131d317e-6f04-4652-8597-3182932f09c4"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

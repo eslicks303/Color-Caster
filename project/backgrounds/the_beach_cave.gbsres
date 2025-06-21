@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c4e7468b-80d7-4c5c-873c-048ac5e30bf5",
+  "name": "The_Beach_Cave",
+  "symbol": "bg_the_beach_cave",
+  "width": 30,
+  "height": 18,
+  "imageWidth": 240,
+  "imageHeight": 144,
+  "filename": "The_Beach_Cave.png",
+  "tileColors": "007c+036+012+03e+008+036+012+03e+008+0316+008+0316+004+023+0317+004+023+0317+008+0316+008+0316+008+0316+008+0316+0018+032+001c+022+001c+022+001c+022+008+",
+  "autoColor": false
+}

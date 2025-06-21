@@ -1,0 +1,131 @@
+{
+  "_resourceType": "script",
+  "id": "8a536e68-9352-46bd-9d8e-2039b38ff9c4",
+  "name": "Jump Right Down One",
+  "symbol": "script_3",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Jump Down Right One On Land"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "afcdde13-6a4d-4705-af02-8817357ceded",
+              "persist": false,
+              "__collapse": false
+            },
+            "id": "06d1b33f-0c21-404f-963b-6f1de5ad0560"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Player Jump Right",
+              "__collapse": true
+            },
+            "id": "c9827516-76bf-475a-936a-e3d0861787be"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "aff7a234-ab37-405c-88e2-74e7f246e52d"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 2,
+              "__collapse": true
+            },
+            "id": "4873712b-f2af-4a56-adae-445877bddffc"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "355c5e6a-bf72-41d7-a462-6e09b3b016e1",
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "e0e255ce-55c8-4bd0-87ad-54acf9f49779"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "e703139b-99c6-47f3-bde0-5e2440cd1a2b"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Land Right",
+              "__collapse": true
+            },
+            "id": "8c4b471f-212f-4489-adff-53f259027d3f"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.2,
+              "frames": 30,
+              "units": "frames"
+            },
+            "id": "32cb61f1-a10c-4c2a-9b5c-5f0537939ce7"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1
+            },
+            "id": "361bb794-951c-4840-a9f8-9196272e08f9"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "f70dc65b-e545-405f-bb91-37218fa5e168",
+              "persist": false,
+              "__collapse": false
+            },
+            "id": "146da148-3319-4239-9787-bd6f9a965f9e"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              }
+            },
+            "id": "11b74170-9484-4e9e-8acc-c438b2db358c"
+          }
+        ]
+      },
+      "id": "03948aad-404d-4509-a933-e011425367e7"
+    }
+  ]
+}

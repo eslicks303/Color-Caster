@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "e00f7c57-4986-4d2f-882d-775fc8e8d05b",
+  "_index": 1,
+  "symbol": "actor_34",
+  "prefabId": "",
+  "name": "",
+  "x": 32,
+  "y": 14,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "19ee2192-3dc9-4088-b6ba-85b25592cf7c",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "    Buy'n'Sell\n \"We buy stuff!\""
+        ],
+        "avatarId": ""
+      },
+      "id": "89923404-2c2e-4ceb-868f-66a9488c3e5a"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

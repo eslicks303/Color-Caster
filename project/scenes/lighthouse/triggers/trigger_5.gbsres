@@ -1,0 +1,86 @@
+{
+  "_resourceType": "trigger",
+  "id": "d6aed212-a8dc-4e71-be08-d5a434fc0edd",
+  "_index": 5,
+  "symbol": "trigger_33",
+  "prefabId": "",
+  "name": "",
+  "x": 19,
+  "y": 19,
+  "width": 2,
+  "height": 3,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "In Grass",
+        "__comment": false
+      },
+      "id": "3a1b71d2-bc11-4ac5-ad2c-aa78415e353b"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ab2d82ca-1c7a-4e0a-bdf8-ffc18bc809c4",
+        "__comment": true
+      },
+      "id": "1d1fdadd-e121-42c6-9595-b918458b3c26"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "8b1226e8-fa09-4bcc-8c4b-93f44db73c83",
+        "persist": false,
+        "__comment": true
+      },
+      "id": "2f94eec7-6929-49bc-9b4f-44f028a6e5ad"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "__comment": false
+            },
+            "id": "22636118-0790-4bd6-84d9-d22f067bb7ec"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ab2d82ca-1c7a-4e0a-bdf8-ffc18bc809c4",
+              "__comment": true
+            },
+            "id": "3bc0eb8e-fd00-49a4-b065-78b9df5d2e99"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "2b009004-0398-468f-9022-d4f508294b0a",
+              "persist": false,
+              "__comment": true
+            },
+            "id": "d8e603bc-1c61-4ac3-896b-488e76b70153"
+          }
+        ]
+      },
+      "id": "7a988636-a789-4ec9-9dfc-b49ec9aaec8a"
+    }
+  ]
+}

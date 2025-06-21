@@ -1,0 +1,151 @@
+{
+  "_resourceType": "actor",
+  "id": "33711bc4-6e20-4e33-bf3e-d1033e4a419b",
+  "_index": 1,
+  "symbol": "actor_29",
+  "prefabId": "",
+  "name": "",
+  "x": 14,
+  "y": 6,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1962eb8c-9675-4fd2-b6ba-361b2c038fdb",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 4,
+        "option1": "Item Swapping",
+        "option2": "Swapping Key",
+        "option3": "Fishing",
+        "option4": "Cancel",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
+      },
+      "id": "5de409c1-c64e-4a11-a83c-19966f1079ef"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "L0",
+        "choices": 3,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "How to use the\nitem swap feature:",
+                "Press select, then\npress a direction\nto swap to an item.",
+                "Press select again\nto travel to camp.",
+                "Press B to cancel\nitem swap."
+              ],
+              "avatarId": "",
+              "__collapse": true
+            },
+            "id": "90639d47-b78c-405e-95f1-8acb73d0275f"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Up: Wand\nLeft: Sword\nRight: Watering Can\nDown: Fishing rod"
+              ],
+              "avatarId": "",
+              "__collapse": true
+            },
+            "id": "0cdff4e5-27c2-4662-8540-fe9e677bc1f1"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Equip the fishing\nrod by pressing\nSelect, then Down.",
+                "Face the direction\nthat you want to\ncast the bobber.",
+                "Try your best to\nland the bobber on\nthe fish.",
+                "The fish will\nthink about biting\nthe bobber.",
+                "Press B as soon as\nyou see the \"!\""
+              ],
+              "avatarId": "",
+              "__collapse": true
+            },
+            "id": "3d5d7e86-9258-4bff-b2ce-480eea2a0344"
+          }
+        ],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "0da65657-0936-423d-82a6-7b67a0b38931"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

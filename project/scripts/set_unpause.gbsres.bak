@@ -1,0 +1,34 @@
+{
+  "_resourceType": "script",
+  "id": "449103cc-5d42-4173-bbc3-afea3c631058",
+  "name": "Set Unpause",
+  "symbol": "script_7",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start",
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": 1
+            },
+            "id": "be470ebb-c34a-4abe-968b-25eaafd14325"
+          }
+        ]
+      },
+      "id": "62adefa8-e388-456f-8d3d-7fc38afabaf1"
+    }
+  ]
+}

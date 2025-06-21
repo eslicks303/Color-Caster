@@ -1,0 +1,138 @@
+{
+  "_resourceType": "actor",
+  "id": "3d935b87-1ac3-4efb-8c35-745eeb22d9d7",
+  "_index": 2,
+  "symbol": "actor_18",
+  "prefabId": "",
+  "name": "Spellbook",
+  "x": 6,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5ceab401-1492-430e-b139-40096e270226",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "80",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "3af01201-d8f6-4e20-913c-1f0a87add17b"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": -1
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "b6f338ad-fe29-47d3-ab0e-cac13c213f1a"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "player",
+        "spriteStateId": "Got Item!",
+        "__comment": false
+      },
+      "id": "2f8839c5-f389-4056-acfa-3589a23c8339"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "ca4bbcb5-8636-4577-85ec-e2b073ca15b8",
+        "persist": false,
+        "__comment": true
+      },
+      "id": "ca3272e9-aa69-41c9-9b30-5c16103a154e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It's your trusty\nspellbook!",
+          "Of course... Most\nof the pages are\nmissing.",
+          "Legend has it,\nthere's an island\nwhere all your lost\ntreasures wash up.",
+          "As luck would have\nit, you just\narrived at that\nvery island!",
+          "Now, get out there\nand find those\nlost pages!"
+        ],
+        "avatarId": "",
+        "__collapse": false
+      },
+      "id": "6f9d4b9d-4a85-4044-8084-fe134ed550de"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "800c6082-9a2b-408d-a207-a9499c1fa123"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "player",
+        "spriteStateId": "",
+        "__comment": false
+      },
+      "id": "d5b71126-a278-463f-8b90-e050103e07fc"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "2b009004-0398-468f-9022-d4f508294b0a",
+        "persist": false,
+        "__comment": true
+      },
+      "id": "d3f9d973-3a83-4a55-bc61-54a6b84fd824"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "80",
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "80"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "0c9e1eb8-bc8a-425c-a41a-f062036b72b9"
+          }
+        ],
+        "false": []
+      },
+      "id": "892b666a-31e3-4347-aec7-7e3021c32c76"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

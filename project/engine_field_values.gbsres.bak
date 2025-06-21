@@ -1,0 +1,21 @@
+{
+  "_resourceType": "engineFieldValues",
+  "engineFieldValues": [
+    {
+      "id": "fade_style",
+      "value": 0
+    },
+    {
+      "id": "adv_direction_type",
+      "value": 0
+    },
+    {
+      "id": "adv_vel",
+      "value": 4500
+    },
+    {
+      "id": "adv_strafe_vel",
+      "value": 4000
+    }
+  ]
+}

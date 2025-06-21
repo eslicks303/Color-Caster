@@ -1,0 +1,116 @@
+{
+  "_resourceType": "script",
+  "id": "fd0c6ec4-126b-4bf1-bf13-f51034fcd2f9",
+  "name": "Card Random Dealer",
+  "symbol": "script_10",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "__collapse": true,
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "579b339f-4f5f-410b-b8ef-2b16f455938d"
+    },
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "expression": "$10$",
+        "__collapse": false,
+        "condition": {
+          "type": "expression",
+          "value": "$10$"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Random Card Value",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "8",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "V0",
+                    "value": "0",
+                    "minValue": 1,
+                    "maxValue": 13,
+                    "clamp": false
+                  },
+                  "id": "d5013a66-dcdf-4b8e-b500-b697cf38f073"
+                }
+              ]
+            },
+            "id": "0bf5b5a2-edeb-4c4f-9690-1f38dd84f967"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Random Suit Value",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "9",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "V0",
+                    "value": "0",
+                    "minValue": 1,
+                    "maxValue": 4,
+                    "clamp": false
+                  },
+                  "id": "4e32fd8f-f606-43bb-b475-ee1469b8b6be"
+                }
+              ]
+            },
+            "id": "cc8ef506-28af-4a2e-9a20-95f2537b11f4"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "17bec145-e9ba-4716-ae4b-0eb9c2a64bf7",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "V0"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "V1"
+              }
+            },
+            "id": "5c024c32-3a80-4994-9612-517c380be852"
+          }
+        ]
+      },
+      "id": "5cccb0a9-f18b-4981-9ab7-e20b51d51d2c"
+    }
+  ]
+}

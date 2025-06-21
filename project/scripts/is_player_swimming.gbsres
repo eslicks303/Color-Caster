@@ -1,0 +1,45 @@
+{
+  "_resourceType": "script",
+  "id": "db5a0705-baa7-4c4a-9cfe-4794c28a1cc3",
+  "name": "Is player swimming?",
+  "symbol": "script_5",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "2",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Swim"
+            },
+            "id": "91de892b-5561-4f50-89e1-3b45f830ffb8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": ""
+            },
+            "id": "28ab5b65-3949-4e83-8b3b-80178dddbcc2"
+          }
+        ]
+      },
+      "id": "46aacf12-0f82-492c-beed-ac8349d87aef"
+    }
+  ]
+}

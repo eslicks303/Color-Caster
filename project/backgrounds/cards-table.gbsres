@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "937d838e-f713-499a-96f5-0984d0874f9c",
+  "name": "Cards-Table",
+  "symbol": "bg_cards_table",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Cards-Table.png",
+  "tileColors": "073d+0512+072+054+06a+054+072+054+06a+054+072+053+06c+053+072+053+06c+053+072+0512+072+0512+072+053+06c+053+072+053+06c+053+072+054+06a+054+072+054+06a+054+072+0512+073d+",
+  "autoColor": false
+}

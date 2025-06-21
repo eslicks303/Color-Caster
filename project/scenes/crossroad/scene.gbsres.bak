@@ -1,0 +1,52 @@
+{
+  "_resourceType": "scene",
+  "id": "24176054-6256-474a-b2a9-50c139002973",
+  "_index": 7,
+  "type": "TOPDOWN",
+  "name": "Crossroad",
+  "symbol": "scene_8",
+  "x": 888,
+  "y": 936,
+  "width": 36,
+  "height": 24,
+  "backgroundId": "b89ee0be-de1d-4edb-99fb-abc55f0626d1",
+  "tilesetId": "",
+  "paletteIds": [
+    "574ab422-af65-4ce9-82a4-1c1e071667c1",
+    "default-bg-1",
+    "20ec0f9c-d1ae-4965-9b3a-e8a093f2d0c9",
+    "default-bg-2",
+    "default-bg-4",
+    "e525a1df-f930-4834-a108-2768db12a944",
+    "604c0e2a-57cb-41e3-bcd7-9e2125926b43"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": null,
+  "autoFadeEventCollapse": true,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1b3d4c33-5c22-42fa-a293-8ee439c900d8",
+        "__collapse": true
+      },
+      "id": "b6c0c047-0719-4f4c-bceb-cae9ba0fce0b"
+    },
+    {
+      "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+      "args": {
+        "startpoint": "White",
+        "starting_r": 0,
+        "starting_g": 0,
+        "starting_b": 0,
+        "dmg_startpoint": "normal",
+        "speed": "2"
+      },
+      "id": "1bcffbdf-43b8-4703-9b52-b6eb17282008"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "004+0f5+004+0f4+0017+0f!0017+0f!002+0f5+004+0f!0017+0f!002+0f!008+0f!0017+0f4+008+0f!004+0fc+0013+0f6+00a+0f!00a+0f!008+0f!00f+0f!00a+0f!008+0f4+007+0f3+002+0f!006+0f8+005+0f!002+0f!009+0f!002+0f!006+0f!002+0f!009+0f!002+0f!006+0f!002+0f4+006+0f4+009+0f!002+0f!006+0f!004+0f!0014+0f!002+0f8+0019+0f!0023+0f!0023+0f!001f+0f5+003a+0f4+0020+0f4+00e+0f4+004+0f4+00b+0f4+009+0f4+00a+0f4+005+0fb+0023+0f!0023+0f1e+0024+"
+}

@@ -1,0 +1,83 @@
+{
+  "_resourceType": "scene",
+  "id": "3d77d081-ded1-45ba-a3e7-dd8442c798cb",
+  "_index": 20,
+  "name": "GB Studio Logo",
+  "backgroundId": "56560fb2-2a78-435e-a6a0-ff31b6658c22",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [
+    "b83ad936-9298-42e8-abec-7cbd9e066959",
+    "20ec0f9c-d1ae-4965-9b3a-e8a093f2d0c9"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": null,
+  "symbol": "scene_0",
+  "x": 60,
+  "y": 30,
+  "script": [
+    {
+      "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+      "args": {
+        "startpoint": "Black",
+        "starting_r": 0,
+        "starting_g": 0,
+        "starting_b": 0,
+        "dmg_startpoint": "normal",
+        "speed": "3"
+      },
+      "id": "06871399-5849-4fc9-b52f-2c409847641e"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "7ffb8e1b-5c16-41f5-96b7-31f79951bb8d"
+    },
+    {
+      "command": "GF_EVENT_FADE_STREET_AUTO_FADE_OUT",
+      "args": {
+        "endpoint": "White",
+        "starting_r": 0,
+        "starting_g": 0,
+        "starting_b": 0,
+        "dmg_endpoint": "normal",
+        "speed": "3"
+      },
+      "id": "30960dd5-b138-4d6e-b287-30fdb0636828"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "1a48bb2e-5218-4474-8baa-acfdeb6f7e36"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4872c18a-a7b8-4b0f-b5df-34939a15c816",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "",
+        "fadeSpeed": 3
+      },
+      "id": "af223693-c0fa-4403-8d4c-d58b7f57db0e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

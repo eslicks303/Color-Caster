@@ -1,0 +1,89 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "7aa39723-8a85-4c4c-8763-8b831156e950",
+  "name": "Scene Change Bottom Side",
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "355c5e6a-bf72-41d7-a462-6e09b3b016e1",
+              "__collapse": true
+            },
+            "id": "341f2d73-d433-47e3-8b3a-87a9577b5f9c"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "0",
+              "vectorY": "1",
+              "__collapse": true
+            },
+            "id": "f28e3c16-475a-4c13-b5f7-fd20dcc48b1d"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": false
+            },
+            "id": "6200c7d8-a2c8-49e5-8bce-9a1934748a2f"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "0",
+              "operation": "add",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 0,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
+              "__collapse": false
+            },
+            "id": "fc5f2d9b-108f-4518-a6d3-2413828fc46a"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3337592c-c3ed-4ae6-ba09-373fc49e28d4",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "down",
+              "fadeSpeed": 1,
+              "__collapse": false
+            },
+            "id": "c3b7e4c5-df75-4d1d-853d-814501d45e83"
+          }
+        ]
+      },
+      "id": "e1d18ed1-771a-4fa4-849f-62a986ffc897"
+    }
+  ],
+  "leaveScript": []
+}

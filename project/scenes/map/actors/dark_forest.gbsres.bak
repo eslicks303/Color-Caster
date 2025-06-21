@@ -1,0 +1,135 @@
+{
+  "_resourceType": "actor",
+  "id": "f7246fdd-ba5c-47e7-a598-52c48fef7a0c",
+  "_index": 3,
+  "symbol": "actor_14",
+  "prefabId": "",
+  "name": "Dark Forest",
+  "x": 13,
+  "y": 14,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "95f7aed4-8518-4479-8d0b-c19077cee26a",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "Travel to Dark Forest"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "3",
+              "items": 2,
+              "option1": "Travel",
+              "option2": "Cancel",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "menu",
+              "cancelOnLastOption": true,
+              "__collapse": true
+            },
+            "id": "a3065289-c823-42f4-b310-0251ab381aee"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "3",
+              "operator": "==",
+              "comparator": 1,
+              "__collapseElse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SCENE_RESET_STATE",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "id": "c0455bca-33f7-4a17-a904-176deca2c6e4"
+                },
+                {
+                  "command": "GF_EVENT_FADE_STREET_AUTO_FADE_OUT",
+                  "args": {
+                    "endpoint": "White",
+                    "starting_r": 0,
+                    "starting_g": 0,
+                    "starting_b": 0,
+                    "dmg_endpoint": "normal",
+                    "speed": "2",
+                    "__collapse": true
+                  },
+                  "id": "bb22eeef-8146-4bb0-921b-f33e1bbe23b5"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "f649262b-a360-4a61-9f54-08e0d0374efa",
+                    "x": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "direction": "up",
+                    "fadeSpeed": "2",
+                    "__collapse": false
+                  },
+                  "id": "5b5e8553-d745-40b4-b015-e4cec45566fc"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "3",
+                    "__collapse": true,
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "02d29171-7ecd-48c4-8512-5976c0b58bfa"
+                }
+              ],
+              "false": []
+            },
+            "id": "df7bb0ab-4a14-4a83-9ca0-6be8b8745029"
+          }
+        ]
+      },
+      "id": "f38a03db-d299-4ccc-91d8-7464d6a9d856"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

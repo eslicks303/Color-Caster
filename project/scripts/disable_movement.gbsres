@@ -1,0 +1,28 @@
+{
+  "_resourceType": "script",
+  "id": "cba4ab60-0dbc-453a-805f-d6297deaf28e",
+  "name": "Disable Movement",
+  "symbol": "script_31",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "up",
+          "down",
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "1155d453-834b-4176-aa64-4b37394b254d"
+    }
+  ]
+}

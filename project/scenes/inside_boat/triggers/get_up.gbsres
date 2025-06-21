@@ -1,0 +1,40 @@
+{
+  "_resourceType": "trigger",
+  "id": "b4e42002-1c08-4483-aa27-f0f3b007c07c",
+  "_index": 1,
+  "symbol": "trigger_25",
+  "prefabId": "",
+  "name": "Get up!",
+  "x": 4,
+  "y": 11,
+  "width": 1,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "cacb15ae-404c-4ab3-8a9c-81b815ee60ab",
+        "persist": false
+      },
+      "id": "27468fd9-254f-40d9-a3a2-44957c976999"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "a6f19be4-0987-4ae2-ba1e-312a66f1d81f",
+        "persist": false
+      },
+      "id": "11cddba9-d2d9-4d33-9a74-2089d38d2a99"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "355c5e6a-bf72-41d7-a462-6e09b3b016e1"
+      },
+      "id": "60121fa1-f2b4-42ec-ab05-cb3d6404c42a"
+    }
+  ]
+}

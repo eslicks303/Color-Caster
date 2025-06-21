@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "afc8910e-c651-49d2-9fa1-6026aa17bd90",
+  "_index": 3,
+  "symbol": "actor_37",
+  "prefabId": "",
+  "name": "",
+  "x": 5,
+  "y": 14,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "19ee2192-3dc9-4088-b6ba-85b25592cf7c",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Up and Upgrades!\n   \"Your stuff:\n     Better!\""
+        ],
+        "avatarId": ""
+      },
+      "id": "ab9c8acf-d35e-422e-9d40-c03105498e83"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

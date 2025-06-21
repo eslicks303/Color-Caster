@@ -1,0 +1,23 @@
+{
+  "_resourceType": "trigger",
+  "id": "2fde7a80-ad44-44a4-a38d-4fb32f0d2753",
+  "_index": 1,
+  "symbol": "trigger_34",
+  "prefabId": "",
+  "name": "",
+  "x": 16,
+  "y": 15,
+  "width": 3,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SCENE_POP_ALL_STATE",
+      "args": {
+        "fadeSpeed": 1
+      },
+      "id": "5d25e15e-a121-44a5-b47e-c7cb57aef56a"
+    }
+  ],
+  "leaveScript": []
+}

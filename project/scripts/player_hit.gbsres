@@ -1,0 +1,144 @@
+{
+  "_resourceType": "script",
+  "id": "c8ea8131-4d3f-4c2b-a74e-4d51ba08e6e0",
+  "name": "Player Hit",
+  "symbol": "script_30",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF_EXPRESSION",
+      "args": {
+        "expression": "$112$ != 0",
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_DEC_VALUE",
+            "args": {
+              "variable": "112"
+            },
+            "id": "4fdf9765-a130-40f7-a115-ec004fd8d3a6"
+          }
+        ],
+        "false": []
+      },
+      "id": "f84855ff-8d16-485c-a46e-7ab2daa57c35"
+    },
+    {
+      "command": "EVENT_IF_EXPRESSION",
+      "args": {
+        "expression": "$112$ > 4",
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_SPRITE",
+            "args": {
+              "palette0": "",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep"
+            },
+            "id": "0bb7016b-1dad-4456-b792-c4a8c3a60bbc"
+          }
+        ],
+        "false": []
+      },
+      "id": "6c1c3ca0-3eb6-47f2-b4ed-129c2e470716"
+    },
+    {
+      "command": "EVENT_IF_EXPRESSION",
+      "args": {
+        "expression": "$112$ <= 4 && $112$ > 2",
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_SPRITE",
+            "args": {
+              "palette0": "2b0efde7-e91f-418a-800d-04622bf483b7",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep"
+            },
+            "id": "052f7f3b-2bb9-46a3-bd2d-09df0a84a0c2"
+          }
+        ],
+        "false": []
+      },
+      "id": "c33c3e8f-06f1-4d3e-9e0f-dd487d27b297"
+    },
+    {
+      "command": "EVENT_IF_EXPRESSION",
+      "args": {
+        "expression": "$112$ <= 2 && $112$ > 0",
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_SPRITE",
+            "args": {
+              "palette0": "4bb2fd06-b492-4138-915a-42412a796cc0",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep"
+            },
+            "id": "d0237b47-c706-45a1-9994-6a843caf4995"
+          }
+        ],
+        "false": []
+      },
+      "id": "31917372-eac1-41bb-98d6-aa5792a1a38c"
+    },
+    {
+      "command": "EVENT_IF_EXPRESSION",
+      "args": {
+        "expression": "$112$ == 0",
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_SPRITE",
+            "args": {
+              "palette0": "20ec0f9c-d1ae-4965-9b3a-e8a093f2d0c9",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep"
+            },
+            "id": "c230d445-af9e-4ebe-aeda-19d2dfc0364b"
+          }
+        ],
+        "false": []
+      },
+      "id": "08f1b293-4ff2-491f-bf0e-8a1bfcf26df9"
+    }
+  ]
+}

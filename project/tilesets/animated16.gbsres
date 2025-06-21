@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "42c81ca3-bd3e-47de-af06-c2e57dcf5f30",
+  "name": "animated16",
+  "symbol": "tileset_animated16",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "animated16.png"
+}

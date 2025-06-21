@@ -1,0 +1,47 @@
+{
+  "_resourceType": "scene",
+  "id": "5d7323c4-32aa-4ac7-b4fc-33add2c5d0da",
+  "_index": 18,
+  "type": "TOPDOWN",
+  "name": "Tavern",
+  "symbol": "scene_20",
+  "x": 1478.5,
+  "y": 559,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "3ff3a135-d68b-4b59-a291-e05dbcb9d286",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "4e4b966b-1ed4-4ab3-9f9b-ef6dd11e8f4c",
+    "c4571b26-0558-48a4-99cc-9b5a522bc430"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1b3d4c33-5c22-42fa-a293-8ee439c900d8"
+      },
+      "id": "70914199-d137-4229-b008-01184361c9cc"
+    },
+    {
+      "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+      "args": {
+        "startpoint": "Black",
+        "starting_r": 0,
+        "starting_g": 0,
+        "starting_b": 0,
+        "dmg_startpoint": "normal",
+        "speed": "2"
+      },
+      "id": "fb4d78c7-741e-41b8-8b6e-e8607c8456b8"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0015+0fa+00a+0f!008+0f7+004+0f!00e+0f!004+0f!00e+0f!004+0f!002+0f4+002+0f9+002+0f!002+0f4+00a+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!002+0f4+00a+0f!002+0f!002+0f4+006+0f5+002+0f!00c+0f5+002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!008+"
+}

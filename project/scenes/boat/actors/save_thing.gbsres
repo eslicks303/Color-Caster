@@ -1,0 +1,184 @@
+{
+  "_resourceType": "actor",
+  "id": "773011fe-95b3-4c21-b1bd-7ab246e0436f",
+  "_index": 0,
+  "symbol": "actor_4",
+  "prefabId": "",
+  "name": "Save Thing",
+  "x": 26,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b8095ed8-bae2-4e98-9abe-d4b732b27cd4",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Save Game",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "4",
+              "__collapseElse": true,
+              "__collapse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "4"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You can fast \ntravel to the \nboat dock!",
+                      "Press START to \nopen the map!"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "bf448555-8188-462b-a5ba-c4c8efc2fee6"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "e47eaf67-904d-454e-8899-d341bba5ea7e"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "On"
+                  },
+                  "id": "bc639191-eb0a-49fa-b2c4-f480defacd48"
+                }
+              ],
+              "false": []
+            },
+            "id": "d69ee199-bc52-4ef5-8e7d-4215ad1fdd25"
+          },
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "load"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_SAVED_DATA",
+                  "args": {
+                    "saveSlot": 0,
+                    "__collapseElse": false,
+                    "__disableElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Saved progress!\nSafe to power off."
+                          ],
+                          "avatarId": "",
+                          "__collapse": false
+                        },
+                        "id": "b229ab46-b410-4a1f-b0b5-7f2821ac9f1a"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Something went\nwrong while\nsaving... :("
+                          ],
+                          "avatarId": "",
+                          "__collapse": true
+                        },
+                        "id": "f0d40bb1-9d3a-49d4-a5a1-3c03f1fe46d0"
+                      }
+                    ]
+                  },
+                  "id": "a6133b71-8120-490a-b897-421cfdab7a22"
+                }
+              ],
+              "load": [
+                {
+                  "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+                  "args": {
+                    "startpoint": "White",
+                    "starting_r": 0,
+                    "starting_g": 0,
+                    "starting_b": 0,
+                    "dmg_startpoint": "normal",
+                    "speed": "2",
+                    "__collapse": true
+                  },
+                  "id": "6d1c7342-6e11-4308-8559-517ee363a0b8"
+                }
+              ]
+            },
+            "id": "3da36cb0-4db4-4d38-84ce-16e1882c555e"
+          }
+        ]
+      },
+      "id": "6b80ebc0-932e-47c7-8cde-86c02ce21eb4"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "4",
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "4"
+        },
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "On"
+            },
+            "id": "94520c39-8532-4712-bdf8-07e40daaf684"
+          }
+        ],
+        "false": []
+      },
+      "id": "7e864c8f-f632-42b9-bd5b-c933ae72354d"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

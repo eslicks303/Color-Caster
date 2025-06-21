@@ -1,0 +1,71 @@
+{
+  "_resourceType": "trigger",
+  "id": "4731eb38-a293-4e0e-92fa-afc84998b95b",
+  "_index": 2,
+  "symbol": "trigger_30",
+  "prefabId": "",
+  "name": "",
+  "x": 6,
+  "y": 13,
+  "width": 8,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "80",
+        "__collapseElse": true,
+        "__disableElse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "80"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You wouldn't want\nto leave without\nyour book!",
+                "It's on the table\nnext to the bed."
+              ],
+              "avatarId": ""
+            },
+            "id": "b71e18a5-2eca-42a4-a0d6-2fd1935b442a"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapse": true
+            },
+            "id": "5976921d-9d89-42d3-97b9-34eab8a39e73"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "355c5e6a-bf72-41d7-a462-6e09b3b016e1",
+              "__collapse": true
+            },
+            "id": "a873e05e-25aa-4d73-afc9-5255cf06e14b"
+          }
+        ],
+        "false": []
+      },
+      "id": "1ebaddc1-d9db-4826-8c6e-b999c154ecb1"
+    }
+  ],
+  "leaveScript": []
+}

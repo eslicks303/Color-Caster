@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0fb7b069-2006-49b8-b650-5363824ea34e",
+  "name": "cards",
+  "symbol": "bg_cards",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cards.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d37fc97e-10a9-47c2-9b7a-c7a4ad97b695",
+  "name": "The_Lighthouse",
+  "symbol": "bg_the_lighthouse",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "The_Lighthouse.png",
+  "tileColors": "0450+06!047+034+043+062+043+064+044+034+068+048+03!022+03!0410+03!022+03!0410+034+0410+03!022+03!04f+032+022+032+04e+036+04e+036+04e+03!064+03!04c+022+03!02!032+02!03!022+04a+022+03!02!032+02!03!022+04a+02a+04a+02a+045+",
+  "autoColor": false
+}

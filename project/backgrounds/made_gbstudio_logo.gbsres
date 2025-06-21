@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "56560fb2-2a78-435e-a6a0-ff31b6658c22",
+  "name": "Made Gbstudio logo",
+  "symbol": "bg_made_gbstudio_logo",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Made Gbstudio logo.png",
+  "tileColors": "0153+00e+016+00e+016+002+01a+002+016+002+01a+002+016+002+01a+002+016+002+01a+002+016+002+01a+002+016+002+01a+002+016+002+01a+002+016+002+01a+002+016+002+01a+002+016+00e+016+00e+0117+",
+  "autoColor": true
+}

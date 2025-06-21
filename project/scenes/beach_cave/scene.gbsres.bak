@@ -1,0 +1,39 @@
+{
+  "_resourceType": "scene",
+  "id": "3337592c-c3ed-4ae6-ba09-373fc49e28d4",
+  "_index": 4,
+  "type": "TOPDOWN",
+  "name": "Beach Cave",
+  "symbol": "scene_5",
+  "x": 2904,
+  "y": 520,
+  "width": 30,
+  "height": 18,
+  "backgroundId": "c4e7468b-80d7-4c5c-873c-048ac5e30bf5",
+  "tilesetId": "",
+  "paletteIds": [
+    "6d2cc9cd-94e9-4639-a8a0-0f328e18e156",
+    "c4571b26-0558-48a4-99cc-9b5a522bc430",
+    "",
+    "3fe7c967-ebd5-43eb-b4d3-12d8737c26cd"
+  ],
+  "spritePaletteIds": [
+    "acce165e-9a73-4483-adb5-ae1045ab1138"
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1b3d4c33-5c22-42fa-a293-8ee439c900d8",
+        "__collapse": true
+      },
+      "id": "66c60af7-34c7-475a-be45-f775e5aad2d8"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "005d+0fa+006+0f8+006+0f!008+0f!006+0f!006+0f!006+0f!008+0f!006+0f!006+0f!003+0f4+008+0f!006+0f!006+0f!00f+0f!004+0f3+006+0f!00f+0f!004+0f!008+0f!00f+0f!004+0f!008+0f!003+0f4+005+0f4+004+0f!008+0f!006+0f!005+0f!007+0f!008+0f!006+0f!005+0f!007+0f!008+0f!006+0f!005+0f!007+0f!008+0f!006+0f7+007+0f3+002+0f5+0016+0f!002+0f!001a+0f!002+0f!001a+0f!002+0f!007+"
+}

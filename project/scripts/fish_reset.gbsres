@@ -1,0 +1,71 @@
+{
+  "_resourceType": "script",
+  "id": "be73a58c-b3fc-478b-b167-cacdfa7f8e24",
+  "name": "Fish Reset",
+  "symbol": "script_21",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "97",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "361631fa-d494-4821-91bf-47be0f1a460f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "94",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "da26ea71-4649-4499-b991-5bcffbfa52b1"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "95",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "b41bce85-0e47-4ca6-b14f-2e7a0b679d7f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "89",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "e55a6668-5f02-41da-a976-d31606ad2f1a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "93",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "f1758da6-d8ac-438b-921a-b90ec2022f25"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "98",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "2d23cf86-75c0-4329-9b06-aef5f7a97d47"
+    }
+  ]
+}

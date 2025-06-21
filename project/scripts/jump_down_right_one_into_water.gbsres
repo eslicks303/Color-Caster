@@ -1,0 +1,144 @@
+{
+  "_resourceType": "script",
+  "id": "509e8ecc-b92e-4040-b93b-5b80cba5e5ed",
+  "name": "Jump Down Right One Into Water",
+  "symbol": "script_4",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "Jump into water"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "afcdde13-6a4d-4705-af02-8817357ceded",
+              "persist": false,
+              "__collapse": false
+            },
+            "id": "13730f9a-a789-4bb9-8a42-e28da272da16"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Player Jump Right",
+              "__collapse": true
+            },
+            "id": "40a645fd-3028-424b-b5ed-7697517566fa"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "e3825d2e-4976-44e0-9628-028776093df1"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 2,
+              "__collapse": true
+            },
+            "id": "d60990d7-dc38-487d-9872-c30dc585e081"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "355c5e6a-bf72-41d7-a462-6e09b3b016e1",
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "62254307-25c8-4b32-a9a2-7c66343b89b8"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "672dd330-50f3-4364-9de6-1e5384abe1ad"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Land Right",
+              "__collapse": true
+            },
+            "id": "cd398f7f-c1ff-4e0b-9df0-f13ac7b2027c"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 0.5,
+              "__collapse": true
+            },
+            "id": "e80fbcbb-b919-4495-bcc4-af987a8cf553"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "f70dc65b-e545-405f-bb91-37218fa5e168",
+              "persist": true,
+              "__collapse": false
+            },
+            "id": "40464e45-cac6-4979-8fb0-4de14d92dcb1"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Swim"
+            },
+            "id": "ddee6ba6-fd66-4a2b-88f4-5cab52349b79"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              },
+              "__collapse": true
+            },
+            "id": "2b389221-17d8-4e44-95fd-b37eb38c746e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "__collapse": true,
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "efa863fb-e1bd-4013-8431-9e0d0c6ef46c"
+          }
+        ]
+      },
+      "id": "543b5fdc-ff7c-459c-8b8c-0a9031c7348d"
+    }
+  ]
+}

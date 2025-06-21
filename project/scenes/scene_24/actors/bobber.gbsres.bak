@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "a087fdba-02c7-4baa-85a5-ade582fc4907",
+  "name": "Bobber",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "07ddb5ab-f079-4bc2-8ee2-4e1817515d98",
+  "prefabId": "ddd26f17-166c-4e4a-bb35-48b38d6d3235",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "7c78cc69-f9de-486f-b732-efd188086e7b": {
+      "id": "7c78cc69-f9de-486f-b732-efd188086e7b",
+      "args": {
+        "frames": 13
+      }
+    },
+    "3c4bb522-cad2-4d0a-890e-77c1978bfe24": {
+      "id": "3c4bb522-cad2-4d0a-890e-77c1978bfe24",
+      "args": {
+        "timer": 4,
+        "units": "frames",
+        "frames": 1
+      }
+    },
+    "2fef1a25-51ee-4763-afe6-b1b11af7f207": {
+      "id": "2fef1a25-51ee-4763-afe6-b1b11af7f207",
+      "args": {
+        "timer": 4
+      }
+    },
+    "e65252a0-1acf-4e82-82ea-3430f3cd4f0a": {
+      "id": "e65252a0-1acf-4e82-82ea-3430f3cd4f0a",
+      "args": {
+        "frames": 10
+      }
+    }
+  },
+  "symbol": "actor_44",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 1,
+  "y": 7,
+  "_index": 4
+}

@@ -1,0 +1,42 @@
+{
+  "_resourceType": "actor",
+  "id": "fcaf87ec-4882-4841-9295-cf8ca301349d",
+  "_index": 1,
+  "symbol": "actor_11",
+  "prefabId": "",
+  "name": "Page Beach Cave",
+  "x": 10,
+  "y": 4,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "bdc104ba-31b7-40b4-aaed-344e0e5e55d5",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "58cfd781-83be-4456-9e12-91ed0692345a"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "cd04858f-2e16-4f2f-9505-9547251f295b"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

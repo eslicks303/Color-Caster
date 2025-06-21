@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f2d3be12-32f9-4deb-bcff-3ec3d025149c",
+  "name": "Crossroad_Cave",
+  "symbol": "bg_crossroad_cave",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Crossroad_Cave.png",
+  "tileColors": "039+022+0312+022+03d+042+032+024+032+042+03c+004+03c+054+004+054+038+054+004+054+038+054+006+052+038+054+006+052+038+052+00a+038+052+00a+038+00c+038+00c+038+009+023+038+009+023+0354+",
+  "autoColor": false
+}

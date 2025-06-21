@@ -1,0 +1,49 @@
+{
+  "_resourceType": "scene",
+  "id": "f47b83e0-e567-4a7f-ba15-d004e2248143",
+  "_index": 19,
+  "type": "TOPDOWN",
+  "name": "Town",
+  "symbol": "scene_21",
+  "x": 1370.8333333333333,
+  "y": 764.5,
+  "width": 60,
+  "height": 18,
+  "backgroundId": "91d5577a-9abe-4340-a054-808f6cdd73f7",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "4e4b966b-1ed4-4ab3-9f9b-ef6dd11e8f4c",
+    "c4571b26-0558-48a4-99cc-9b5a522bc430",
+    "5c88cf04-047e-4b95-90d4-9fa3cfbf0c02",
+    "20ec0f9c-d1ae-4965-9b3a-e8a093f2d0c9"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1b3d4c33-5c22-42fa-a293-8ee439c900d8"
+      },
+      "id": "96f7e53a-a23d-4e94-b7a4-3092824c726d"
+    },
+    {
+      "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+      "args": {
+        "startpoint": "White",
+        "starting_r": 0,
+        "starting_g": 0,
+        "starting_b": 0,
+        "dmg_startpoint": "normal",
+        "speed": "3"
+      },
+      "id": "f965725f-f1e2-40c1-8ed8-6355d7406c4e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "002d+0f!003b+0f!003b+0f!003b+0f!0034+0f4+003+0f!003b+0f!003b+0f!003b+0f!0038+0f2+00!0f!003b+0f!0015+0f4+007+0f4+0010+0f4+003+0f!004+0f5+00c+0f!002+0f!006+0f2+002+0f5+00!0f4+00e+0f6+003+0f!002+0f2+00!0f8+002+0f8+007+0f3+002+0f5+002+0f2+009+0f2+005+0f2+0025+0f4+00a+0f2+005+0f!00f4+"
+}

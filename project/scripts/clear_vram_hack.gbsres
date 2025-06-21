@@ -1,0 +1,26 @@
+{
+  "_resourceType": "script",
+  "id": "ab2d82ca-1c7a-4e0a-bdf8-ffc18bc809c4",
+  "name": "Clear VRAM Hack",
+  "symbol": "script_29",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Hide"
+      },
+      "id": "ba7376aa-2f7e-45f3-8836-ce7b0f2057d1"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_IDLE"
+      },
+      "id": "0d104501-ec4d-46bd-a88a-6b981a96ac06"
+    }
+  ]
+}

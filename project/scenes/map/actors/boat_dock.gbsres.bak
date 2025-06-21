@@ -1,0 +1,167 @@
+{
+  "_resourceType": "actor",
+  "id": "6a44d76e-5bbc-440c-96c9-9cd362cbadf4",
+  "_index": 0,
+  "symbol": "actor_1",
+  "prefabId": "",
+  "name": "Boat Dock",
+  "x": 1,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "95f7aed4-8518-4479-8d0b-c19077cee26a",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Travel to Boat Dock"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "3",
+              "items": 2,
+              "option1": "Travel",
+              "option2": "Cancel",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "menu",
+              "cancelOnLastOption": true,
+              "__collapse": true
+            },
+            "id": "3739b124-a2d1-4d4f-bd5c-cefed5d641df"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "3",
+              "operator": "==",
+              "comparator": 1,
+              "__collapseElse": true,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SCENE_RESET_STATE",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "id": "3c5928e8-e96a-4090-9880-c4e8f07ab9d2"
+                },
+                {
+                  "command": "GF_EVENT_FADE_STREET_AUTO_FADE_OUT",
+                  "args": {
+                    "endpoint": "White",
+                    "starting_r": 0,
+                    "starting_g": 0,
+                    "starting_b": 0,
+                    "dmg_endpoint": "normal",
+                    "speed": "2",
+                    "__collapse": true
+                  },
+                  "id": "21a08923-771f-4c4a-8eee-88497a7a0442"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "9a7bab00-5600-4b73-91ca-d9be8534003b",
+                    "x": {
+                      "type": "number",
+                      "value": 26
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 12
+                    },
+                    "direction": "down",
+                    "fadeSpeed": "2",
+                    "__collapse": false
+                  },
+                  "id": "d3c1fe2f-7e37-48d2-829f-57cfea1f4931"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "3",
+                    "__collapse": true,
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "71a1ca39-817e-4754-8d9f-63fc681616f6"
+                }
+              ],
+              "false": []
+            },
+            "id": "d61a2c06-0baf-45a7-9059-184d23ba5f62"
+          }
+        ]
+      },
+      "id": "b24250c2-2fce-429b-8a13-04ed21f503de"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "4",
+        "__collapseElse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": false
+            },
+            "id": "8ad66fa7-cff2-4308-a408-8df184162a62"
+          }
+        ],
+        "false": []
+      },
+      "id": "7ea26250-91fe-4c59-9a73-d15a2f8e5cac"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

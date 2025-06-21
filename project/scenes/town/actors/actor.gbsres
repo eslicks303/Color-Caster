@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "e8256a60-39c4-4d43-8c91-3ea0c001d9e0",
+  "_index": 0,
+  "symbol": "actor_33",
+  "prefabId": "",
+  "name": "",
+  "x": 23,
+  "y": 13,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "19ee2192-3dc9-4088-b6ba-85b25592cf7c",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "  Trusty Crusty\n   Town Tavern"
+        ],
+        "avatarId": ""
+      },
+      "id": "39f0b2d1-fc98-4af4-919c-aac11add1528"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

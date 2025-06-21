@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "600c6a05-1ed5-4b10-b1d7-acfc25262c42",
+  "name": "battle-test-song",
+  "symbol": "song_battle_test_song",
+  "filename": "battle-test-song.uge",
+  "settings": {},
+  "type": "uge"
+}

@@ -1,0 +1,77 @@
+{
+  "_resourceType": "script",
+  "id": "625c3c16-de13-4a88-a994-1f6569ac4879",
+  "name": "Set Player Position",
+  "symbol": "script_1",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "1",
+        "operator": "!=",
+        "comparator": "0",
+        "__collapseElse": true,
+        "__collapse": false,
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "0"
+              },
+              "y": {
+                "type": "variable",
+                "value": "1"
+              },
+              "__comment": false,
+              "__collapse": true
+            },
+            "id": "edfe5dad-d1a6-4220-9962-77b166898ef2"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "__collapse": true,
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "618bd154-5c29-4b95-b53a-a1d334fb40ce"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "__collapse": true,
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "3a78dd4f-ca42-4eca-9490-52bfa123c792"
+          }
+        ],
+        "false": []
+      },
+      "id": "b4c93ae3-84f5-410f-955c-5a81814e36cd"
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "_resourceType": "script",
+  "id": "8ce73548-4742-4204-99f2-a7e0ac8d6fab",
+  "name": "Card Player Ace Calc",
+  "symbol": "script_13",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Check Number of Aces"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "26",
+              "operator": "==",
+              "comparator": "0",
+              "__collapseElse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "26"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                  "args": {
+                    "variable": "66",
+                    "expression": "$67$"
+                  },
+                  "id": "0d84b048-0d15-4696-8999-bc1da52fec91"
+                }
+              ],
+              "false": []
+            },
+            "id": "22617851-3bf0-4d22-b202-b72a2c891c52"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "26",
+              "operator": "==",
+              "comparator": 1,
+              "__collapseElse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "26"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "67",
+                    "operator": "<=",
+                    "comparator": 10,
+                    "__collapseElse": false,
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "67"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 10
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                        "args": {
+                          "variable": "66",
+                          "expression": "$67$ + 11"
+                        },
+                        "id": "88dff528-0bd7-47f2-a1cb-ed070efdefdc"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                        "args": {
+                          "variable": "66",
+                          "expression": "$67$ + 1"
+                        },
+                        "id": "6cd39417-24c6-4339-b2de-3d7a4c14d800"
+                      }
+                    ]
+                  },
+                  "id": "9d4741fd-4358-4a63-9a89-37bcb0bf367f"
+                }
+              ],
+              "false": []
+            },
+            "id": "1d1dcc89-c505-40ff-8e1b-2223dd2f6be7"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "26",
+              "operator": "==",
+              "comparator": 2,
+              "__collapseElse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "26"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "67",
+                    "operator": "<=",
+                    "comparator": 9,
+                    "__collapseElse": false,
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "67"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 9
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                        "args": {
+                          "variable": "66",
+                          "expression": "$67$ + 12"
+                        },
+                        "id": "e0c97cae-57b9-4d89-998f-2feb11cffc65"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                        "args": {
+                          "variable": "66",
+                          "expression": "$67$ + 2"
+                        },
+                        "id": "1c5f80cd-81f7-4933-af45-418fe33022a1"
+                      }
+                    ]
+                  },
+                  "id": "fb5fbf0a-2866-4af3-b0b1-fd242eff5053"
+                }
+              ],
+              "false": []
+            },
+            "id": "8ca52515-1107-4030-be0d-c88cc59064f2"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "26",
+              "operator": "==",
+              "comparator": 3,
+              "__collapseElse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "26"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 3
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "67",
+                    "operator": "<=",
+                    "comparator": 8,
+                    "__collapseElse": false,
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "67"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 8
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                        "args": {
+                          "variable": "66",
+                          "expression": "$67$ + 13"
+                        },
+                        "id": "720a235a-9abd-403f-b122-61bcbda0158f"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                        "args": {
+                          "variable": "66",
+                          "expression": "$67$ + 3"
+                        },
+                        "id": "a82c9db5-edb3-4386-ad19-c1296d6d3c15"
+                      }
+                    ]
+                  },
+                  "id": "90520575-b72d-4b70-b8de-a6576e62cf68"
+                }
+              ],
+              "false": []
+            },
+            "id": "bada4a47-8b4a-4467-8a11-26896175c7b3"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "26",
+              "operator": "==",
+              "comparator": 4,
+              "__collapseElse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "26"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 4
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "67",
+                    "operator": "<=",
+                    "comparator": 7,
+                    "__collapseElse": false,
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "67"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 7
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                        "args": {
+                          "variable": "66",
+                          "expression": "$67$ + 14"
+                        },
+                        "id": "4db5acfe-094d-4e03-bd1a-e96ff680c12a"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                        "args": {
+                          "variable": "66",
+                          "expression": "$67$ + 4"
+                        },
+                        "id": "55817721-82bb-4fc1-a52a-1ac801a0475f"
+                      }
+                    ]
+                  },
+                  "id": "0be30068-bbb1-4e1b-a435-03ce4fc9499a"
+                }
+              ],
+              "false": []
+            },
+            "id": "8b228566-5782-404b-90cc-ecd47e49735a"
+          }
+        ]
+      },
+      "id": "ab588ec3-bfd4-4c39-8847-134146060a90"
+    }
+  ]
+}

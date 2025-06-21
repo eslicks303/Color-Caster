@@ -1,0 +1,533 @@
+{
+  "_resourceType": "scene",
+  "id": "c76443ff-ab30-4efd-b527-b0db9d81a38a",
+  "_index": 13,
+  "type": "TOPDOWN",
+  "name": "Card Game Table",
+  "symbol": "scene_14",
+  "x": 60,
+  "y": 2000,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "937d838e-f713-499a-96f5-0984d0874f9c",
+  "tilesetId": "",
+  "paletteIds": [
+    "default-bg-1",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "20ec0f9c-d1ae-4965-9b3a-e8a093f2d0c9"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": null,
+  "autoFadeEventCollapse": true,
+  "script": [
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "79",
+        "operation": "set",
+        "other": "val",
+        "vectorY": "L0",
+        "value": 25,
+        "minValue": "0",
+        "maxValue": "32767",
+        "clamp": false,
+        "__comment": true
+      },
+      "id": "4e8a23c9-3fa8-4669-8a2a-dd20dbbc1f38"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "51c42b8e-d6ce-4590-990f-533ce89a4347"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "3e5d9004-5ed6-4fce-a045-148902f6c0ed",
+        "__collapse": true
+      },
+      "id": "b220a8ed-ba0a-4795-afca-94762c626c36"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "$79$",
+        "x": 6,
+        "y": 1,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "e39e8783-9a48-4846-b2d7-ee7874d031af"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "0",
+        "x": 17,
+        "y": 1,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "e9ffcd29-2b56-441b-83f5-d0d0a440ff65"
+    },
+    {
+      "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+      "args": {
+        "startpoint": "Black",
+        "starting_r": 0,
+        "starting_g": 0,
+        "starting_b": 0,
+        "dmg_startpoint": "normal",
+        "speed": "3",
+        "__collapse": true
+      },
+      "id": "c6cfcbc7-61e8-4f49-a08c-bf787961be35"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "79",
+        "operator": "<",
+        "comparator": 5,
+        "__collapseElse": false,
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "79"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 10
+          }
+        },
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Alright, ya had\nenough. Come back\nwhen ya got more\nmoney! Heh heh"
+              ],
+              "avatarId": ""
+            },
+            "id": "b101b6a0-a47a-4560-9a70-b87ad535eb62"
+          },
+          {
+            "command": "GF_EVENT_FADE_STREET_AUTO_FADE_OUT",
+            "args": {
+              "endpoint": "Black",
+              "starting_r": 0,
+              "starting_g": 0,
+              "starting_b": 0,
+              "dmg_endpoint": "normal",
+              "speed": "2",
+              "__collapse": true
+            },
+            "id": "000aef1b-9a10-4113-a3f5-8ada0594a8aa"
+          },
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": 1,
+              "__collapse": true
+            },
+            "id": "37f7e981-4576-4da3-b13c-5b78c2f02a65"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "113",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": true
+            },
+            "id": "709dcf57-a84f-490a-bc5b-879139db7f74"
+          },
+          {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "expression": "$113$ == False",
+              "condition": {
+                "type": "expression",
+                "value": "$113$ == False"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "$79$",
+                    "x": 6,
+                    "y": 1,
+                    "location": "background",
+                    "__collapse": true
+                  },
+                  "id": "bd659283-3267-4a7e-bfef-18aa1560a454"
+                },
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "0",
+                    "x": 17,
+                    "y": 1,
+                    "location": "background",
+                    "__collapse": true
+                  },
+                  "id": "1a26ce9d-a799-458c-aa14-eefa322279b3"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "How much gold are\nya bettin'?"
+                    ],
+                    "avatarId": "",
+                    "__collapse": true
+                  },
+                  "id": "0bef8cf5-db04-42b3-af2d-c1cf8673848d"
+                },
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "72",
+                    "items": 4,
+                    "option1": "10",
+                    "option2": "20",
+                    "option3": "50",
+                    "option4": "100",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": false,
+                    "layout": "dialogue",
+                    "__collapse": true
+                  },
+                  "id": "a16a586d-a74d-44fb-912d-309d07144038"
+                },
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "72",
+                    "choices": 4,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH",
+                        "args": {
+                          "vectorX": "72",
+                          "operation": "set",
+                          "other": "val",
+                          "vectorY": "L0",
+                          "value": 10,
+                          "minValue": "0",
+                          "maxValue": "32767",
+                          "clamp": false,
+                          "__collapse": true
+                        },
+                        "id": "7142d2ea-3d73-4d3d-903b-72dfcfe4f1e0"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH",
+                        "args": {
+                          "vectorX": "72",
+                          "operation": "set",
+                          "other": "val",
+                          "vectorY": "L0",
+                          "value": 20,
+                          "minValue": "0",
+                          "maxValue": "32767",
+                          "clamp": false,
+                          "__collapse": true
+                        },
+                        "id": "89a45fed-4218-4def-b5db-e33f63bf2cfb"
+                      }
+                    ],
+                    "true2": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH",
+                        "args": {
+                          "vectorX": "72",
+                          "operation": "set",
+                          "other": "val",
+                          "vectorY": "L0",
+                          "value": 50,
+                          "minValue": "0",
+                          "maxValue": "32767",
+                          "clamp": false,
+                          "__collapse": true
+                        },
+                        "id": "a9646375-6ead-42f8-87ee-f50582f12cc6"
+                      }
+                    ],
+                    "true3": [
+                      {
+                        "command": "EVENT_VARIABLE_MATH",
+                        "args": {
+                          "vectorX": "72",
+                          "operation": "set",
+                          "other": "val",
+                          "vectorY": "L0",
+                          "value": 100,
+                          "minValue": "0",
+                          "maxValue": "32767",
+                          "clamp": false,
+                          "__collapse": true
+                        },
+                        "id": "17a3e67d-a9e2-4de6-acd0-3c9e28464fdf"
+                      }
+                    ],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": []
+                  },
+                  "id": "27a0e3f1-7161-47cc-86f6-21b8bcf2a0ee"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "vectorX": "72",
+                    "operator": ">",
+                    "vectorY": "79",
+                    "__collapseElse": false,
+                    "condition": {
+                      "type": "gt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "72"
+                      },
+                      "valueB": {
+                        "type": "variable",
+                        "value": "79"
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Hey, now! Ya only\ngot $79$ gold! \nSo, lemme ask ya\nagain..."
+                          ],
+                          "avatarId": ""
+                        },
+                        "id": "6de3df88-70e8-498a-aad2-fc17c1acb8af"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Hey, now! Ya don't\neven have that\nmuch gold!",
+                            "I'm gonna ask you\nagain, and ya best\npick something\naround $79$!"
+                          ],
+                          "avatarId": "",
+                          "__comment": true
+                        },
+                        "id": "a5c6d3b0-cad6-4f4d-b27d-cc08fe763da4"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "113",
+                          "value": {
+                            "type": "true"
+                          }
+                        },
+                        "id": "0e2b7171-9fbe-4b40-ad67-850c54e2e303"
+                      }
+                    ]
+                  },
+                  "id": "2ad8e181-5abb-4b97-ac26-0b708039cd8f"
+                }
+              ]
+            },
+            "id": "62c5ba2c-a314-42c9-9215-e1ca6b13da72"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "79",
+              "operation": "sub",
+              "other": "var",
+              "vectorY": "72",
+              "value": "0",
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false
+            },
+            "id": "5b9aabb7-2a4b-480a-aae9-1095e1e6f2c2"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2e25971a-ded3-4508-9eea-003c42dadc04",
+              "__comment": true
+            },
+            "id": "c5f86c11-c893-4468-83c0-d923bcfe5ae7"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "    ",
+              "x": 6,
+              "y": 1,
+              "location": "background",
+              "__collapse": true
+            },
+            "id": "e7f43df7-bd2a-455c-9497-decddd7e3cf9"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "$79$",
+              "x": 6,
+              "y": 1,
+              "location": "background",
+              "__collapse": true
+            },
+            "id": "42ad6035-5f53-4a25-9709-79b5338ac1ae"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "0",
+              "x": 17,
+              "y": 1,
+              "location": "background",
+              "__collapse": true
+            },
+            "id": "7b220540-19cc-4fff-b2e2-e22f64f477d7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Great! Now, I'll\ndeal us in!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3d08c781-b3fd-4dcb-b83f-62a7e384064f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Alright, I'm takin'\n$72$ gold, which\nleaves ya with\n$79$ gold.",
+                "Now, I'll deal\nus in!"
+              ],
+              "avatarId": "",
+              "__comment": true
+            },
+            "id": "40a3f9ff-1730-4c02-8699-2c9ab1b12afd"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "d11237bd-032d-4ac5-bf97-231a9d822bb5"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c1608801-0cbf-4dec-8bb1-af6cfff3e454",
+              "__collapse": true,
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "L1"
+              }
+            },
+            "id": "d5f96b35-e51e-41cd-b8a6-a479c64bbaab"
+          }
+        ]
+      },
+      "id": "7c3e4e24-953b-4838-b7ff-8c1c63a415e3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

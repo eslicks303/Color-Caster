@@ -1,0 +1,80 @@
+{
+  "_resourceType": "settings",
+  "startSceneId": "c76443ff-ab30-4efd-b527-b0db9d81a38a",
+  "startX": 10,
+  "startY": 3,
+  "startMoveSpeed": 1,
+  "startAnimSpeed": 7,
+  "startDirection": "down",
+  "showCollisionExtraTiles": false,
+  "sgbEnabled": false,
+  "customHead": "",
+  "defaultBackgroundPaletteIds": [
+    "default-bg-1",
+    "default-bg-2",
+    "default-bg-3",
+    "default-bg-4",
+    "default-bg-5",
+    "default-bg-6",
+    "dmg",
+    "default-ui"
+  ],
+  "defaultSpritePaletteIds": [
+    "acce165e-9a73-4483-adb5-ae1045ab1138",
+    "c4571b26-0558-48a4-99cc-9b5a522bc430",
+    "default-bg-2",
+    "20ec0f9c-d1ae-4965-9b3a-e8a093f2d0c9",
+    "5c88cf04-047e-4b95-90d4-9fa3cfbf0c02",
+    "66711571-e752-4983-aa3b-397e48da257b",
+    "adfa1995-8c4f-4020-9e8b-d459c5175afd",
+    "default-sprite"
+  ],
+  "defaultSpritePaletteId": "default-sprite",
+  "defaultUIPaletteId": "default-ui",
+  "playerPaletteId": "",
+  "defaultFontId": "60ab3706-905a-4826-a752-c2b16efc0f0e",
+  "defaultCharacterEncoding": "",
+  "defaultPlayerSprites": {
+    "TOPDOWN": "a6f19be4-0987-4ae2-ba1e-312a66f1d81f",
+    "PLATFORM": "a6f19be4-0987-4ae2-ba1e-312a66f1d81f",
+    "ADVENTURE": "a6f19be4-0987-4ae2-ba1e-312a66f1d81f",
+    "SHMUP": "a6f19be4-0987-4ae2-ba1e-312a66f1d81f",
+    "POINTNCLICK": "a6f19be4-0987-4ae2-ba1e-312a66f1d81f",
+    "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+  },
+  "musicDriver": "huge",
+  "cartType": "mbc3",
+  "batterylessEnabled": false,
+  "customColorsWhite": "",
+  "customColorsLight": "",
+  "customColorsDark": "",
+  "customColorsBlack": "",
+  "customControlsUp": [],
+  "customControlsDown": [],
+  "customControlsLeft": [],
+  "customControlsRight": [],
+  "customControlsA": [
+    "Alt",
+    "z",
+    "j",
+    " "
+  ],
+  "customControlsB": [
+    "Control",
+    "k",
+    "x",
+    "Enter"
+  ],
+  "customControlsStart": [
+    "Escape"
+  ],
+  "customControlsSelect": [
+    "Shift",
+    "Tab"
+  ],
+  "colorMode": "color",
+  "generateDebugFilesEnabled": false,
+  "compilerPreset": 3000,
+  "scriptEventPresets": {},
+  "scriptEventDefaultPresets": {}
+}

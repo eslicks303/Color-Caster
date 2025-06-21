@@ -1,0 +1,285 @@
+{
+  "_resourceType": "actor",
+  "id": "712bd919-85fb-46b0-96c7-d5ab78e491f2",
+  "_index": 0,
+  "symbol": "actor_23",
+  "prefabId": "",
+  "name": "Chest Beach Cave",
+  "x": 10,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "bd66a217-1583-4b38-9a45-11e981911044",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "84",
+        "__collapseElse": true,
+        "__disableElse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "84"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Move to chest",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_GET_POSITION",
+                  "args": {
+                    "actorId": "712bd919-85fb-46b0-96c7-d5ab78e491f2",
+                    "vectorX": "115",
+                    "vectorY": "116",
+                    "__collapse": true
+                  },
+                  "id": "f4bc785a-e842-44e4-ab7f-90db50c11ede"
+                },
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "116",
+                    "operation": "add",
+                    "other": "val",
+                    "vectorY": "0",
+                    "value": 3,
+                    "minValue": "0",
+                    "maxValue": "32767",
+                    "clamp": false,
+                    "__collapse": true
+                  },
+                  "id": "36c72b67-bcbc-4492-bb38-0d120a5af657"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_AT_POSITION",
+                  "args": {
+                    "actorId": "player",
+                    "x": {
+                      "type": "variable",
+                      "value": "115"
+                    },
+                    "y": {
+                      "type": "variable",
+                      "value": "116"
+                    },
+                    "__collapseElse": false,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [],
+                    "false": [
+                      {
+                        "command": "EVENT_ACTOR_MOVE_TO",
+                        "args": {
+                          "actorId": "player",
+                          "x": {
+                            "type": "variable",
+                            "value": "115"
+                          },
+                          "y": {
+                            "type": "variable",
+                            "value": "116"
+                          },
+                          "moveType": "vertical",
+                          "useCollisions": false,
+                          "__collapse": true
+                        },
+                        "id": "d182177e-f5dd-448d-aa2a-b524cae25d32"
+                      }
+                    ]
+                  },
+                  "id": "03e496c8-81be-4575-a052-11162c0ed130"
+                }
+              ]
+            },
+            "id": "b0a0b76b-45fd-421b-ab5d-783e06d0744b"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "c18ac17c-49dc-4c6e-8d64-52d7edb98a27"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "83"
+            },
+            "id": "d1efdc18-ddd4-491a-a3c2-66d8281fafb2"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "fcaf87ec-4882-4841-9295-cf8ca301349d",
+              "__collapse": false
+            },
+            "id": "f0c16760-ba66-4dd5-a376-db64cd26edd4"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "fcaf87ec-4882-4841-9295-cf8ca301349d",
+              "__collapse": false
+            },
+            "id": "40c7f23d-c437-433e-9eab-7379f2a7d8ae"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "fcaf87ec-4882-4841-9295-cf8ca301349d",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": -1
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "9ea3454a-f08a-4279-8190-fbdda6a5838b"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "player",
+              "spriteStateId": "Got Item!",
+              "__comment": false
+            },
+            "id": "9ad5d0ae-05cc-4535-8aee-f5b1f3fee522"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "ca4bbcb5-8636-4577-85ec-e2b073ca15b8",
+              "persist": false,
+              "__comment": true
+            },
+            "id": "09526d35-01c2-4f80-8c33-f775c6653e8b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You got a page!\nSomeone must have\nput it in this\nchest.",
+                "You've found $83$\nso far! Sweet!"
+              ],
+              "avatarId": ""
+            },
+            "id": "fd727eb4-ca18-4b13-b8fd-67c6c6c051eb"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "fcaf87ec-4882-4841-9295-cf8ca301349d",
+              "__collapse": false
+            },
+            "id": "121f15a4-d6a0-4b97-9e40-386946492671"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "fcaf87ec-4882-4841-9295-cf8ca301349d",
+              "__collapse": false
+            },
+            "id": "1a04046d-ef65-418c-935a-b339a3d4e37b"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "player",
+              "spriteStateId": "",
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "1938c5a6-4f4b-47a0-a250-2cb6e66271ef"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "2b009004-0398-468f-9022-d4f508294b0a",
+              "persist": false,
+              "__comment": true
+            },
+            "id": "f7eb0a5d-c214-4f07-8718-ac6e231f3c14"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "84",
+              "__collapse": false,
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "85e8533a-601b-41a5-b312-8a7f55a54478"
+          }
+        ],
+        "false": []
+      },
+      "id": "991dd695-8e6a-4cab-9316-7f21219ae28c"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "84",
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "84"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "cfc8d787-543d-4002-9a6b-96c353c6b121",
+              "frame": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "dd7412da-a060-42a7-be8f-2cf93e3b1f64"
+          }
+        ],
+        "false": []
+      },
+      "id": "57472c52-a45f-437c-85f7-5fca3e7ed906"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

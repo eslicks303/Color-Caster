@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "534da779-9cd2-41b6-80da-b994ebb9db94",
+  "_index": 1,
+  "name": "Coin",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "07ddb5ab-f079-4bc2-8ee2-4e1817515d98",
+  "paletteId": "",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d256aef3-fe8f-4134-a86d-4ce8db62747e",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "637024c7-059e-42c6-896b-a86cc98180f5",
+      "children": {}
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,226 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "e5ccddfe-cd0b-4410-b294-2e6306ea757c",
+  "_index": 0,
+  "name": "Save Thing",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b8095ed8-bae2-4e98-9abe-d4b732b27cd4",
+  "paletteId": "",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Save Game"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "6",
+              "__collapseElse": true,
+              "__collapse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "6"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You can fast \ntravel to the \nSecret beach!",
+                      "Press START to \nopen the map."
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "c4b4f827-d12e-4e28-8f0a-309984c43543",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "6",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "78f9d44a-b439-4d5d-9522-1f46c57efbe7",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "On"
+                  },
+                  "id": "a966c88a-ede9-4cab-b596-a89893fda58d",
+                  "children": {}
+                }
+              ],
+              "false": []
+            },
+            "id": "1b42203d-658a-4e0b-ab4f-ce7768155e0c"
+          },
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_SAVED_DATA",
+                  "args": {
+                    "saveSlot": 0,
+                    "__collapseElse": false,
+                    "__disableElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Saved progress!\nSafe to power off."
+                          ],
+                          "avatarId": "",
+                          "__collapse": false
+                        },
+                        "id": "3d578cb4-8ef0-4f4c-a624-3c2f2793a3bc",
+                        "children": {}
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Something went\nwrong while\nsaving... :("
+                          ],
+                          "avatarId": "",
+                          "__collapse": true
+                        },
+                        "id": "89f5eaaf-cd85-47a1-964e-80a1089888f9",
+                        "children": {}
+                      }
+                    ]
+                  },
+                  "id": "7139fc11-b056-4429-b9b5-decf7dcef515"
+                }
+              ],
+              "load": [
+                {
+                  "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+                  "args": {
+                    "startpoint": "White",
+                    "starting_r": 0,
+                    "starting_g": 0,
+                    "starting_b": 0,
+                    "dmg_startpoint": "normal",
+                    "speed": "3"
+                  },
+                  "id": "51b91322-f2f1-4825-82d7-5c8652692462"
+                }
+              ]
+            },
+            "id": "b46320e8-0043-417a-ba52-33c9d27bb0c9"
+          }
+        ]
+      },
+      "id": "18ccb8e9-c13b-4995-8f71-94c4234974e2"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "6",
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "6"
+        },
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "On"
+            },
+            "id": "b05dd7c1-8725-4fed-8094-d5bef1b0d1c2",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "17048115-28b7-46cf-ad0c-5e061de7600f"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "119"
+        },
+        "__collapseElse": true,
+        "__collapse": false,
+        "__comment": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+            "args": {
+              "startpoint": "White",
+              "starting_r": 0,
+              "starting_g": 0,
+              "starting_b": 0,
+              "dmg_startpoint": "normal",
+              "speed": "2",
+              "__collapse": true
+            },
+            "id": "6e130e90-f430-4dfc-9dca-8d9ae5cfa624"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "119",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": true
+            },
+            "id": "038e8bd0-9ddd-418a-8464-120dac969be4"
+          }
+        ],
+        "false": []
+      },
+      "id": "8c868e41-e149-4b9f-9da8-549be668d74d"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

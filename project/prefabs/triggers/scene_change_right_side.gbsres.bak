@@ -1,0 +1,90 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "5001df71-1307-4b2e-8d03-6e2c5448c27b",
+  "name": "Scene Change Right Side",
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "355c5e6a-bf72-41d7-a462-6e09b3b016e1",
+              "__collapse": true
+            },
+            "id": "41f70cec-86ef-4849-80e7-767ad65c0d58"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "0",
+              "vectorY": "1",
+              "__collapse": true
+            },
+            "id": "1212f8df-0030-4767-b495-0429f9bf4c1b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "b784d89d-f852-4e41-9479-180174968a86"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "1",
+              "operation": "add",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 0,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
+              "__collapse": true
+            },
+            "id": "91cd2aa1-bf97-40c4-a1ca-3880ecb31c52"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3337592c-c3ed-4ae6-ba09-373fc49e28d4",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "right",
+              "fadeSpeed": 1,
+              "__collapse": true
+            },
+            "id": "622c4963-25c8-46a5-a9b7-2072b7d5b017"
+          }
+        ]
+      },
+      "id": "e27f19de-a1f3-4a97-8527-4c6f80e4117b"
+    }
+  ],
+  "leaveScript": []
+}

@@ -1,0 +1,63 @@
+{
+  "_resourceType": "script",
+  "id": "26b53cb6-b160-4ffe-a499-73406f23691c",
+  "name": "Set Pause",
+  "symbol": "script_6",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "21059fec-9235-45b6-9d0c-791f7fd477ef"
+          },
+          {
+            "command": "GF_EVENT_FADE_STREET_AUTO_FADE_OUT",
+            "args": {
+              "endpoint": "White",
+              "starting_r": 0,
+              "starting_g": 0,
+              "starting_b": 0,
+              "dmg_endpoint": "normal",
+              "speed": "2",
+              "__collapse": true
+            },
+            "id": "102a1cc7-7cc2-4ce6-a805-ef4ecb672b13"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1c0738ca-cf0b-42f7-b975-71b7b69b639f",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "665ff382-028e-4eab-b072-0396a2488f4a"
+          }
+        ]
+      },
+      "id": "2586821c-342c-4bad-892c-d644c56a3654"
+    }
+  ]
+}

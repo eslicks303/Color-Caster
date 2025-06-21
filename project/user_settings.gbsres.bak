@@ -1,0 +1,41 @@
+{
+  "_resourceType": "settings",
+  "worldScrollX": 1030,
+  "worldScrollY": 2627,
+  "zoom": 275,
+  "navigatorSplitSizes": [
+    205,
+    205,
+    312,
+    226
+  ],
+  "showNavigator": true,
+  "showCollisions": true,
+  "showConnections": false,
+  "previewAsMono": false,
+  "showCollisionSlopeTiles": false,
+  "favoriteEvents": [
+    "EVENT_TEXT",
+    "EVENT_SWITCH_SCENE",
+    "EVENT_CALL_CUSTOM_EVENT",
+    "EVENT_ACTOR_GET_POSITION",
+    "EVENT_SET_VALUE",
+    "FO_EVENT_SWAP_TILES_VAR",
+    "EVENT_SET_TIMER_SCRIPT",
+    "EVENT_IF_ACTOR_DIRECTION",
+    "EVENT_VARIABLE_MATH",
+    "EVENT_GROUP",
+    "EVENT_SET_NEIGHBOUR_SCENE",
+    "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+    "GF_EVENT_FADE_STREET_AUTO_FADE_OUT"
+  ],
+  "debuggerEnabled": true,
+  "debuggerScriptType": "editor",
+  "debuggerVariablesFilter": "all",
+  "debuggerCollapsedPanes": [],
+  "debuggerPauseOnScriptChanged": false,
+  "debuggerPauseOnWatchedVariableChanged": false,
+  "debuggerBreakpoints": [],
+  "debuggerWatchedVariables": [],
+  "openBuildLogOnWarnings": false
+}

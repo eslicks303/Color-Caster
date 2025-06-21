@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "5a8198e1-000e-4e82-902b-201a3cabd0d7",
+  "_index": 4,
+  "symbol": "actor_36",
+  "prefabId": "",
+  "name": "",
+  "x": 11,
+  "y": 6,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1962eb8c-9675-4fd2-b6ba-361b2c038fdb",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "TODO:\nOpen fishing thing"
+        ],
+        "avatarId": ""
+      },
+      "id": "d9798356-279a-41e5-ba7e-c485e2fc5ebb"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

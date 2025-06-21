@@ -1,0 +1,62 @@
+{
+  "_resourceType": "actor",
+  "id": "1cf27f83-9374-4ba6-97f6-b647c383e0d5",
+  "_index": 3,
+  "symbol": "actor_31",
+  "prefabId": "",
+  "name": "",
+  "x": 16,
+  "y": 12,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "bd66a217-1583-4b38-9a45-11e981911044",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "270d9260-177a-4748-b9aa-48bdbcd329f4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Gold Count: $79$\nFish Count: $101$"
+        ],
+        "avatarId": ""
+      },
+      "id": "9f771d88-1abe-4241-83c5-46a97939b4f1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "bf8eb835-e31f-4cfb-a0e6-c6eff580726a"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

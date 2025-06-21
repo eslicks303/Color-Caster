@@ -1,0 +1,44 @@
+{
+  "_resourceType": "script",
+  "id": "2e25971a-ded3-4508-9eea-003c42dadc04",
+  "name": "Card Show Gold and Score",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_32",
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "    ",
+        "x": 6,
+        "y": 1,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "aa467c1c-7d25-40bb-aa15-f2fd3b457679"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "$79$",
+        "x": 6,
+        "y": 1,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "83e0e9e2-eba1-4adb-a608-255269927a71"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "$66$",
+        "x": 17,
+        "y": 1,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "5e33ad71-0854-4edd-b2f9-507d12455177"
+    }
+  ]
+}

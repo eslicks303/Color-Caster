@@ -1,0 +1,42 @@
+{
+  "_resourceType": "actor",
+  "id": "10d812f9-54ea-4617-8023-0668954dc6e5",
+  "_index": 3,
+  "symbol": "actor_21",
+  "prefabId": "",
+  "name": "1 Coin",
+  "x": 12,
+  "y": 4,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "07ddb5ab-f079-4bc2-8ee2-4e1817515d98",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8624c04d-8366-4a14-bbe8-0eaeaf94139b"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "bddb9e8f-a68e-4d2c-8c91-3dd5e5ec1f2b"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

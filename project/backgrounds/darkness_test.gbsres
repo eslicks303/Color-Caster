@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c366dc49-edcd-4887-b07b-2a43d8adfb36",
+  "name": "Darkness_Test",
+  "symbol": "bg_darkness_test",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Darkness_Test.png",
+  "tileColors": "",
+  "autoColor": false
+}

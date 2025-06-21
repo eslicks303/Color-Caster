@@ -1,0 +1,605 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "1_Player_X",
+      "symbol": "var_1_player_x"
+    },
+    {
+      "id": "1",
+      "name": "2_Player_Y",
+      "symbol": "var_2_player_y"
+    },
+    {
+      "id": "2",
+      "name": "Player_Swimming",
+      "symbol": "var_player_swimming"
+    },
+    {
+      "id": "3",
+      "name": "Fast_Travel",
+      "symbol": "var_fast_travel"
+    },
+    {
+      "id": "4",
+      "name": "Enable Boat Dock",
+      "symbol": "var_enable_boat_dock"
+    },
+    {
+      "id": "5",
+      "name": "Enable Town",
+      "symbol": "var_enable_town"
+    },
+    {
+      "id": "6",
+      "name": "Enable Secret Beach",
+      "symbol": "var_enable_secret_beach"
+    },
+    {
+      "id": "7",
+      "name": "var_Spades_A_Delt",
+      "symbol": "var_var_spades_a_delt"
+    },
+    {
+      "id": "8",
+      "name": "Card_Deal_Value",
+      "symbol": "var_card_deal_value"
+    },
+    {
+      "id": "9",
+      "name": "Card_Deal_Suit",
+      "symbol": "var_card_deal_suit"
+    },
+    {
+      "id": "10",
+      "name": "Card_Deal_Again",
+      "symbol": "var_card_deal_again"
+    },
+    {
+      "id": "11",
+      "name": "var_Spades_2_Delt",
+      "symbol": "var_var_spades_2_delt"
+    },
+    {
+      "id": "12",
+      "name": "var_Spades_3_Delt",
+      "symbol": "var_var_spades_3_delt"
+    },
+    {
+      "id": "13",
+      "name": "var_Spades_4_Delt",
+      "symbol": "var_var_spades_4_delt"
+    },
+    {
+      "id": "14",
+      "name": "var_Spades_5_Delt",
+      "symbol": "var_var_spades_5_delt"
+    },
+    {
+      "id": "15",
+      "name": "var_Spades_6_Delt",
+      "symbol": "var_var_spades_6_delt"
+    },
+    {
+      "id": "16",
+      "name": "var_Spades_7_Delt",
+      "symbol": "var_var_spades_7_delt"
+    },
+    {
+      "id": "17",
+      "name": "var_Spades_8_Delt",
+      "symbol": "var_var_spades_8_delt"
+    },
+    {
+      "id": "18",
+      "name": "var_Spades_9_Delt",
+      "symbol": "var_var_spades_9_delt"
+    },
+    {
+      "id": "19",
+      "name": "var_Spades_10_Delt",
+      "symbol": "var_var_spades_10_delt"
+    },
+    {
+      "id": "20",
+      "name": "var_Spades_J__Delt",
+      "symbol": "var_var_spades_j_delt"
+    },
+    {
+      "id": "21",
+      "name": "var_Spades_Q_Delt",
+      "symbol": "var_var_spades_q_delt"
+    },
+    {
+      "id": "22",
+      "name": "var_Spades_K_Delt",
+      "symbol": "var_var_spades_k_delt"
+    },
+    {
+      "id": "23",
+      "name": "Card_Face_Value",
+      "symbol": "var_card_face_value"
+    },
+    {
+      "id": "24",
+      "name": "Card_Tile_X",
+      "symbol": "var_card_tile_x"
+    },
+    {
+      "id": "25",
+      "name": "Card_Tile_Y",
+      "symbol": "var_card_tile_y"
+    },
+    {
+      "id": "26",
+      "name": "Card_Player_Number_Of_Aces",
+      "symbol": "var_card_player_number_of_a"
+    },
+    {
+      "id": "27",
+      "name": "var_Hearts_A_Delt",
+      "symbol": "var_var_hearts_a_delt"
+    },
+    {
+      "id": "28",
+      "name": "var_Hearts_2_Delt",
+      "symbol": "var_var_hearts_2_delt"
+    },
+    {
+      "id": "29",
+      "name": "var_Hearts_3_Delt",
+      "symbol": "var_var_hearts_3_delt"
+    },
+    {
+      "id": "30",
+      "name": "var_Hearts_4_Delt",
+      "symbol": "var_var_hearts_4_delt"
+    },
+    {
+      "id": "31",
+      "name": "var_Hearts_5_Delt",
+      "symbol": "var_var_hearts_5_delt"
+    },
+    {
+      "id": "32",
+      "name": "var_Hearts_6_Delt",
+      "symbol": "var_var_hearts_6_delt"
+    },
+    {
+      "id": "33",
+      "name": "var_Hearts_7_Delt",
+      "symbol": "var_var_hearts_7_delt"
+    },
+    {
+      "id": "34",
+      "name": "var_Hearts_8_Delt",
+      "symbol": "var_var_hearts_8_delt"
+    },
+    {
+      "id": "35",
+      "name": "var_Hearts_9_Delt",
+      "symbol": "var_var_hearts_9_delt"
+    },
+    {
+      "id": "36",
+      "name": "var_Hearts_10_Delt",
+      "symbol": "var_var_hearts_10_delt"
+    },
+    {
+      "id": "37",
+      "name": "var_Hearts_J_Delt",
+      "symbol": "var_var_hearts_j_delt"
+    },
+    {
+      "id": "38",
+      "name": "var_Hearts_Q_Delt",
+      "symbol": "var_var_hearts_q_delt"
+    },
+    {
+      "id": "39",
+      "name": "var_Hearts_K_Delt",
+      "symbol": "var_var_hearts_k_delt"
+    },
+    {
+      "id": "40",
+      "name": "var_Clubs_A_Delt",
+      "symbol": "var_var_clubs_a_delt"
+    },
+    {
+      "id": "41",
+      "name": "var_Clubs_2_Delt",
+      "symbol": "var_var_clubs_2_delt"
+    },
+    {
+      "id": "42",
+      "name": "var_Clubs_3_Delt",
+      "symbol": "var_var_clubs_3_delt"
+    },
+    {
+      "id": "43",
+      "name": "var_Clubs_4_Delt",
+      "symbol": "var_var_clubs_4_delt"
+    },
+    {
+      "id": "44",
+      "name": "var_Clubs_5_Delt",
+      "symbol": "var_var_clubs_5_delt"
+    },
+    {
+      "id": "45",
+      "name": "var_Clubs_6_Delt",
+      "symbol": "var_var_clubs_6_delt"
+    },
+    {
+      "id": "46",
+      "name": "var_Clubs_7_Delt",
+      "symbol": "var_var_clubs_7_delt"
+    },
+    {
+      "id": "47",
+      "name": "var_Clubs_8_Delt",
+      "symbol": "var_var_clubs_8_delt"
+    },
+    {
+      "id": "48",
+      "name": "var_Clubs_9_Delt",
+      "symbol": "var_var_clubs_9_delt"
+    },
+    {
+      "id": "49",
+      "name": "var_Clubs_10_Delt",
+      "symbol": "var_var_clubs_10_delt"
+    },
+    {
+      "id": "50",
+      "name": "var_Clubs_J_Delt",
+      "symbol": "var_var_clubs_j_delt"
+    },
+    {
+      "id": "51",
+      "name": "var_Clubs_Q_Delt",
+      "symbol": "var_var_clubs_q_delt"
+    },
+    {
+      "id": "52",
+      "name": "var_Clubs_K_Delt",
+      "symbol": "var_var_clubs_k_delt"
+    },
+    {
+      "id": "53",
+      "name": "var_Diamonds_A_Delt",
+      "symbol": "var_var_diamonds_a_delt"
+    },
+    {
+      "id": "54",
+      "name": "var_Diamonds_2_Delt",
+      "symbol": "var_var_diamonds_2_delt"
+    },
+    {
+      "id": "55",
+      "name": "var_Diamonds_3_Delt",
+      "symbol": "var_var_diamonds_3_delt"
+    },
+    {
+      "id": "56",
+      "name": "var_Diamonds_4_Delt",
+      "symbol": "var_var_diamonds_4_delt"
+    },
+    {
+      "id": "57",
+      "name": "var_Diamonds_5_Delt",
+      "symbol": "var_var_diamonds_5_delt"
+    },
+    {
+      "id": "58",
+      "name": "var_Diamonds_6_Delt",
+      "symbol": "var_var_diamonds_6_delt"
+    },
+    {
+      "id": "59",
+      "name": "var_Diamonds_7_Delt",
+      "symbol": "var_var_diamonds_7_delt"
+    },
+    {
+      "id": "60",
+      "name": "var_Diamonds_8_Delt",
+      "symbol": "var_var_diamonds_8_delt"
+    },
+    {
+      "id": "61",
+      "name": "var_Diamonds_9_Delt",
+      "symbol": "var_var_diamonds_9_delt"
+    },
+    {
+      "id": "62",
+      "name": "var_Diamonds_10_Delt",
+      "symbol": "var_var_diamonds_10_delt"
+    },
+    {
+      "id": "63",
+      "name": "var_Diamonds_J_Delt",
+      "symbol": "var_var_diamonds_j_delt"
+    },
+    {
+      "id": "64",
+      "name": "var_Diamonds_Q_Delt",
+      "symbol": "var_var_diamonds_q_delt"
+    },
+    {
+      "id": "65",
+      "name": "var_Diamonds_K_Delt",
+      "symbol": "var_var_diamonds_k_delt"
+    },
+    {
+      "id": "66",
+      "name": "Card_Player_Total",
+      "symbol": "var_card_player_total"
+    },
+    {
+      "id": "67",
+      "name": "Card_Player_Total_No_Aces",
+      "symbol": "var_card_player_total_no_ac"
+    },
+    {
+      "id": "68",
+      "name": "Card_Delt",
+      "symbol": "var_card_delt"
+    },
+    {
+      "id": "69",
+      "name": "Card_Player_Turn",
+      "symbol": "var_card_player_turn"
+    },
+    {
+      "id": "70",
+      "name": "Card_Scene_Swap_X",
+      "symbol": "var_card_scene_swap_x"
+    },
+    {
+      "id": "71",
+      "name": "Card_Scene_Swap_Y",
+      "symbol": "var_card_scene_swap_y"
+    },
+    {
+      "id": "72",
+      "name": "Card_Player_Bet",
+      "symbol": "var_card_player_bet"
+    },
+    {
+      "id": "73",
+      "name": "Card_Dealer_Turn",
+      "symbol": "var_card_dealer_turn"
+    },
+    {
+      "id": "74",
+      "name": "Card_Dealer_Total_No_Aces",
+      "symbol": "var_card_dealer_total_no_ac"
+    },
+    {
+      "id": "75",
+      "name": "Card_Dealer_Number_Of_Aces",
+      "symbol": "var_card_dealer_number_of_a"
+    },
+    {
+      "id": "76",
+      "name": "Card_Dealer_Total",
+      "symbol": "var_card_dealer_total"
+    },
+    {
+      "id": "77",
+      "name": "Card_Dealer_Second_Card_Val",
+      "symbol": "var_card_dealer_second_card"
+    },
+    {
+      "id": "78",
+      "name": "Card_Stand_Or_Bust",
+      "symbol": "var_card_stand_or_bust_0"
+    },
+    {
+      "id": "79",
+      "name": "Player_Gold_Amount",
+      "symbol": "var_player_gold_amount"
+    },
+    {
+      "id": "80",
+      "name": "Player_Has_Book",
+      "symbol": "var_player_has_book"
+    },
+    {
+      "id": "81",
+      "name": "Chest_Boat_Open",
+      "symbol": "var_chest_boat_open"
+    },
+    {
+      "id": "82",
+      "name": "Page-Lighthouse",
+      "symbol": "var_page_lighthouse"
+    },
+    {
+      "id": "83",
+      "name": "Page-Number-Of",
+      "symbol": "var_page_number_of"
+    },
+    {
+      "id": "84",
+      "name": "Page-Beach-Cave",
+      "symbol": "var_page_beach_cave"
+    },
+    {
+      "id": "85",
+      "name": "Fish-Gen",
+      "symbol": "var_fish_gen"
+    },
+    {
+      "id": "86",
+      "name": "Chest-Beach-Open",
+      "symbol": "var_chest_beach_open"
+    },
+    {
+      "id": "87",
+      "name": "Fish_X",
+      "symbol": "var_fish_x"
+    },
+    {
+      "id": "88",
+      "name": "Fish_Y",
+      "symbol": "var_fish_y"
+    },
+    {
+      "id": "89",
+      "name": "Fish-Show-Bobber",
+      "symbol": "var_fish_show_bobber"
+    },
+    {
+      "id": "90",
+      "name": "Fish-Hit",
+      "symbol": "var_fish_hit"
+    },
+    {
+      "id": "91",
+      "name": "Fish_Bobber_X",
+      "symbol": "var_fish_bobber_x"
+    },
+    {
+      "id": "92",
+      "name": "Fish_Bobber_Y",
+      "symbol": "var_fish_bobber_y"
+    },
+    {
+      "id": "93",
+      "name": "Fish-Bobber-Out",
+      "symbol": "var_fish_bobber_out"
+    },
+    {
+      "id": "94",
+      "name": "Fish-Can-Catch",
+      "symbol": "var_fish_can_catch"
+    },
+    {
+      "id": "95",
+      "name": "Fish-Got!",
+      "symbol": "var_fish_got_"
+    },
+    {
+      "id": "96",
+      "name": "Fish-Early-Pull",
+      "symbol": "var_fish_early_pull"
+    },
+    {
+      "id": "97",
+      "name": "Fish-Thinking",
+      "symbol": "var_fish_thinking"
+    },
+    {
+      "id": "98",
+      "name": "Fish-Fail",
+      "symbol": "var_fish_fail"
+    },
+    {
+      "id": "99",
+      "name": "Fish_Caught_X",
+      "symbol": "var_fish_caught_x"
+    },
+    {
+      "id": "100",
+      "name": "Fish_Caught_Y",
+      "symbol": "var_fish_caught_y"
+    },
+    {
+      "id": "101",
+      "name": "Fish-Number-Of",
+      "symbol": "var_fish_number_of"
+    },
+    {
+      "id": "102",
+      "name": "Item-Equipped",
+      "symbol": "var_item_equipped"
+    },
+    {
+      "id": "103",
+      "name": "Close-Select-Menu",
+      "symbol": "var_close_select_menu"
+    },
+    {
+      "id": "104",
+      "name": "Item-Has-Wand",
+      "symbol": "var_item_has_wand"
+    },
+    {
+      "id": "105",
+      "name": "Item-Has-Sword",
+      "symbol": "var_item_has_sword"
+    },
+    {
+      "id": "106",
+      "name": "Item-Has-Fishing-Rod",
+      "symbol": "var_item_has_fishing_rod"
+    },
+    {
+      "id": "107",
+      "name": "Item-Has-Watering-Can",
+      "symbol": "var_item_has_watering_can"
+    },
+    {
+      "id": "108",
+      "name": "Mob_Tracking_X",
+      "symbol": "var_mob_tracking_x"
+    },
+    {
+      "id": "109",
+      "name": "Mob_Tracking_Y",
+      "symbol": "var_mob_tracking_y"
+    },
+    {
+      "id": "110",
+      "name": "Mob-1-Health",
+      "symbol": "var_mob_1_health"
+    },
+    {
+      "id": "111",
+      "name": "Mob-1-Hit",
+      "symbol": "var_mob_1_hit"
+    },
+    {
+      "id": "112",
+      "name": "Player-HP",
+      "symbol": "var_player_hp"
+    },
+    {
+      "id": "113",
+      "name": "Card_Can_Play",
+      "symbol": "var_card_can_play"
+    },
+    {
+      "id": "114",
+      "name": "Enable River",
+      "symbol": "var_enable_river"
+    },
+    {
+      "id": "115",
+      "name": "Chest_X",
+      "symbol": "var_chest_x"
+    },
+    {
+      "id": "116",
+      "name": "Chest_Y",
+      "symbol": "var_chest_y"
+    },
+    {
+      "id": "511",
+      "name": "Variable 511",
+      "symbol": "var_variable_511"
+    },
+    {
+      "id": "117",
+      "name": "Player_Gold_Num_Digits",
+      "symbol": "var_player_gold_num_digits"
+    },
+    {
+      "id": "118",
+      "name": "Card_Player_BJ",
+      "symbol": "var_card_player_bj"
+    }
+  ]
+}

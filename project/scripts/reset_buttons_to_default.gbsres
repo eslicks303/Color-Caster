@@ -1,0 +1,61 @@
+{
+  "_resourceType": "script",
+  "id": "1e73f6ca-4715-4c13-a74a-4f87b32c7881",
+  "name": "Reset Buttons To Default",
+  "symbol": "script_26",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "left",
+          "up",
+          "down",
+          "right",
+          "start",
+          "select"
+        ],
+        "__collapse": true
+      },
+      "id": "4c8c3079-f30f-4d19-ad27-8c1658ea15b6"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "40c8edec-3868-40cf-b016-8062b025057e",
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "5d40009e-7689-45f9-87ed-6ff5b00cc23e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2eca16a4-226c-4be8-b238-9e9c8791b3bb",
+        "__collapse": true
+      },
+      "id": "d4061c40-b648-4189-9b7c-892b1aa3598a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "26b53cb6-b160-4ffe-a499-73406f23691c",
+        "__collapse": true
+      },
+      "id": "98979246-dabb-4532-b694-e552378535c3"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "c30f911b-147e-4f0f-8ac9-6872594aca5b",
+        "__collapse": true
+      },
+      "id": "208328b2-c0f7-4fe1-853a-d5dd9355e44d"
+    }
+  ]
+}

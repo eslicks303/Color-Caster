@@ -1,0 +1,33 @@
+{
+  "_resourceType": "script",
+  "id": "40c8edec-3868-40cf-b016-8062b025057e",
+  "name": "Set A Button",
+  "symbol": "script_24",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ce6a4710-f173-4cab-80db-b3bebace5c25"
+            },
+            "id": "cef29377-2de7-4cfc-94b1-23f819187ef3"
+          }
+        ]
+      },
+      "id": "582ece11-dd42-4b8d-8682-70f00e752f17"
+    }
+  ]
+}

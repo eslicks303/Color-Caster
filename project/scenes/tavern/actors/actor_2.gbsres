@@ -1,0 +1,167 @@
+{
+  "_resourceType": "actor",
+  "id": "8f2d8a87-9ee2-4173-9893-befd55294cca",
+  "_index": 1,
+  "symbol": "actor_32",
+  "prefabId": "",
+  "name": "",
+  "x": 2,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "6effb515-a45c-4da5-af96-61765ad6bc5e",
+  "paletteId": "",
+  "direction": "right",
+  "moveSpeed": 0.5,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Wanna play some\nblackjack?"
+        ],
+        "avatarId": ""
+      },
+      "id": "268c3fd5-a538-435b-b3c1-8dedf057e94d"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "Yeah, sure!",
+        "option2": "Not interested.",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
+      },
+      "id": "818e8a47-49e1-426c-abe7-881f5f9d131f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "L0",
+        "operator": "==",
+        "comparator": 1,
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "79",
+              "operator": ">=",
+              "comparator": 5,
+              "__collapseElse": false,
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "79"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 5
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SCENE_PUSH_STATE",
+                  "args": {},
+                  "id": "611747bd-9db8-4230-aed5-c40d6bcd0cfc"
+                },
+                {
+                  "command": "GF_EVENT_FADE_STREET_AUTO_FADE_OUT",
+                  "args": {
+                    "endpoint": "Black",
+                    "starting_r": 0,
+                    "starting_g": 0,
+                    "starting_b": 0,
+                    "dmg_endpoint": "normal",
+                    "speed": "3"
+                  },
+                  "id": "3a93be9f-95e7-4197-9bf7-3200edc30683"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "c76443ff-ab30-4efd-b527-b0db9d81a38a",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": 1,
+                    "__collapse": false
+                  },
+                  "id": "9c34b86e-dc33-47c0-83f0-bd13a59293e4"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Woah, there! Ya\ngotta have at\nleast 5 gold to\nplay here.",
+                      "Come back when\nyer pockets are\na bit heavier!"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "c8a01252-fa9f-4f08-a648-455cd85bb6a6"
+                }
+              ]
+            },
+            "id": "5a10abe8-13c1-4cad-b927-1d99a9a74fe7"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I'll be here if\nya change yer\nmind! Heh heh"
+              ],
+              "avatarId": ""
+            },
+            "id": "0156e2d8-76de-4864-803b-9f24faf1314e"
+          }
+        ]
+      },
+      "id": "04be8206-70b8-4230-99b4-1f453f56784d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

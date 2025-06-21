@@ -1,0 +1,82 @@
+{
+  "_resourceType": "trigger",
+  "id": "35b92a1e-978c-442b-8f69-b915c5f50dfb",
+  "_index": 2,
+  "symbol": "trigger_12",
+  "prefabId": "",
+  "name": "",
+  "x": 5,
+  "y": 1,
+  "width": 1,
+  "height": 3,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "GF_EVENT_FADE_STREET_AUTO_FADE_IN",
+            "args": {
+              "startpoint": "White",
+              "starting_r": 0,
+              "starting_g": 0,
+              "starting_b": 0,
+              "dmg_startpoint": "normal",
+              "speed": "3"
+            },
+            "id": "687d9b02-0309-495b-a25e-352bf5798d36"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "355c5e6a-bf72-41d7-a462-6e09b3b016e1"
+            },
+            "id": "7a19aff9-c1e9-4af6-a8eb-af32ebd60445"
+          }
+        ],
+        "false": [
+          {
+            "command": "GF_EVENT_FADE_STREET_AUTO_FADE_OUT",
+            "args": {
+              "endpoint": "Black",
+              "starting_r": 0,
+              "starting_g": 0,
+              "starting_b": 0,
+              "dmg_endpoint": "normal",
+              "speed": "3"
+            },
+            "id": "430b2cd1-a10d-4cc8-901d-0527beb1ec82"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3337592c-c3ed-4ae6-ba09-373fc49e28d4",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "right",
+              "fadeSpeed": 1
+            },
+            "id": "166e3f4c-9890-4b74-807f-a85bba34b494"
+          }
+        ]
+      },
+      "id": "e560c9a4-0d76-4202-968b-866842df8177"
+    }
+  ],
+  "leaveScript": []
+}

@@ -1,0 +1,223 @@
+{
+  "_resourceType": "script",
+  "id": "2e25971a-ded3-4508-9eea-003c42dadc04",
+  "name": "Card Show Gold and Score",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "script_32",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Get Number of Digits in Player Gold",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "117",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "7717d0ce-9f17-40ce-b88c-9851e6665f24"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V0",
+              "value": {
+                "type": "variable",
+                "value": "79"
+              },
+              "__collapse": true
+            },
+            "id": "4933a0f7-6241-46aa-aa6f-80b64f135127"
+          },
+          {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "$V0$ > 0"
+              },
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "V0",
+                    "operation": "div",
+                    "other": "val",
+                    "vectorY": "V0",
+                    "value": 10,
+                    "minValue": "0",
+                    "maxValue": "32767",
+                    "clamp": false,
+                    "__collapse": true
+                  },
+                  "id": "29653051-0c83-42d2-b345-042791ca4be0"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "117",
+                    "__collapse": true
+                  },
+                  "id": "29a435c8-6732-4652-b75e-9ccc16cdc83c"
+                }
+              ]
+            },
+            "id": "f060f0f1-8d36-4e64-adeb-f989edf81023"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "117",
+              "choices": 3,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false,
+              "__disableElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "   ",
+                    "x": 7,
+                    "y": 1,
+                    "location": "background",
+                    "__collapse": true
+                  },
+                  "id": "2050313e-ff12-48b4-ac80-237719cd6183"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "  ",
+                    "x": 8,
+                    "y": 1,
+                    "location": "background",
+                    "__collapse": true
+                  },
+                  "id": "e81002b3-bc88-4680-9d4d-ea12e411d708"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": " ",
+                    "x": 9,
+                    "y": 1,
+                    "location": "background",
+                    "__collapse": true
+                  },
+                  "id": "fa4e6015-4c1c-4b48-a8f6-58657462316b"
+                }
+              ],
+              "true3": [
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "    ",
+                    "x": 6,
+                    "y": 1,
+                    "location": "background",
+                    "__collapse": true
+                  },
+                  "id": "c57f85cc-bee4-4c09-868e-3c0a5ffa7db8"
+                }
+              ],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": []
+            },
+            "id": "b6dd8429-07d2-457f-8110-340532aa5fed"
+          }
+        ]
+      },
+      "id": "28e22f99-56eb-4087-b61e-60c963458f01"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "$79$",
+        "x": 6,
+        "y": 1,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "5127c26c-62fb-45d4-a780-cf9eca45b4f8"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "$66$",
+        "x": 17,
+        "y": 1,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "0004ce1b-26c8-437c-8f7e-608689d6af61"
+    }
+  ]
+}

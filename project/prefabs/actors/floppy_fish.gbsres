@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "3ed46b5d-4a07-41a1-86cb-868b01132972",
+  "_index": 2,
+  "name": "Floppy Fish",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "6901a8e6-383c-4afb-87b3-f79b71e2066b",
+  "paletteId": "",
+  "moveSpeed": 1,
+  "animSpeed": 3,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__comment": false
+      },
+      "id": "441800f5-74d0-44db-a325-b23b3d11db31",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "739bc8a4-9d2e-42a3-8c4d-3824567e3afc",
+      "children": {}
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
